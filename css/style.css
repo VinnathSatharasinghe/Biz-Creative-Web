@@ -122,7 +122,7 @@ h6 {
   padding: 18px 0;
   background: #fff;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
-  background: transparent;
+  background: #034694;
 }
 
 #header.header-scrolled,
@@ -154,6 +154,15 @@ h6 {
   max-height: 166px;
   max-width: 200px;
 }
+
+/* @media (max-width: 700px) {
+  #header .logo img {
+    margin: 511px -150px;
+    max-height: 106px;
+    max-width: 10px;
+  }
+ 
+} */
 
 .main-pages {
   margin-top: 60px;
@@ -889,13 +898,14 @@ h6 {
 
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  border-radius: 50%;
-  overflow: hidden;
-}
+  margin-top: 20px;
+  margin-left: 305px;
+  position: relative; 
+  /* border-radius: 50%; */
+   overflow: hidden;
+}s
 
-#team .member .member-info {
+/* #team .member .member-info {
   opacity: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -915,7 +925,7 @@ h6 {
   left: 0;
   right: 0;
   transition: 0.2s;
-}
+} */
 
 #team .member .member-info-content {
   margin-top: 50px;
@@ -1289,11 +1299,6 @@ h6 {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 992px) {
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
 
 @media (max-width: 991px) {
   #header {
@@ -1301,20 +1306,20 @@ h6 {
     padding: 10px 0;
   }
 
-  #header .logo h1 {
+  /* #header .logo h1 {
     font-size: 28px;
     padding: 8px 0;
-  }
+  } */
 
   #intro {
     padding: 140px 0 60px 0;
   }
 
-  #intro .intro-img {
+  /* #intro .intro-img {
     width: 80%;
     float: none;
     margin: 0 auto 25px auto;
-  }
+  } */
 
   #intro .intro-info {
     width: 80%;
