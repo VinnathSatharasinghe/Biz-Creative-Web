@@ -1306,9 +1306,7 @@ h6 {
   height: 100px;
   padding: 10px 0;
   /* background: #034694; */
-  /* opacity: 0.9; */
-
-  background: whitesmoke;
+  /* opacity: 0.9; */  background: whitesmoke;
 }
 
   #header .logo {
@@ -1320,11 +1318,6 @@ h6 {
     padding: 140px 0 60px 0;
   }
 
-  /* #intro .intro-img {
-    width: 80%;
-    float: none;
-    margin: 0 auto 25px auto;
-  } */
 
   #intro .intro-info {
     width: 80%;
