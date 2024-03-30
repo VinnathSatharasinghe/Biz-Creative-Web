@@ -122,15 +122,18 @@ h6 {
   padding: 18px 0;
   background: #fff;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
-  background: #034694;
+  /* background: #034694; */
+  border-radius: 0px 0px 50px 50px;
 }
 
 #header.header-scrolled,
 #header.header-pages {
   height: 110px;
   padding: 10px 0;
-  background: #034694;
-  opacity: 0.9;
+  /* background: #034694; */
+  /* opacity: 0.9; */
+
+  background: whitesmoke;
 }
 
 #header .logo h1 {
@@ -155,15 +158,6 @@ h6 {
   max-width: 200px;
 }
 
-/* @media (max-width: 700px) {
-  #header .logo img {
-    margin: 511px -150px;
-    max-height: 106px;
-    max-width: 10px;
-  }
- 
-} */
-
 .main-pages {
   margin-top: 60px;
 }
@@ -179,6 +173,8 @@ h6 {
   background: url("../imG/CITY/88.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
+  /* border-radius: 20%; */
+  border-radius: 0px 0px 80px 80px;
 }
 
 #intro .intro-img {
@@ -269,7 +265,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: whitesmoke;
+  color: darkblue;
   padding: 10px 15px;
   transition: 0.9s;
   font-size: 14px;
@@ -281,12 +277,11 @@ h6 {
 .main-nav a:hover {
   display: block;
   position: relative;
-  color: black;
+
   padding: 10px 15px;
-  transition: 0.9s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  transition-duration: 20ms;
+
   
 }
 
@@ -298,7 +293,7 @@ h6 {
 
 }
 
-.main-nav .drop-down ul {
+/* .main-nav .drop-down ul {
   display: block;
   position: absolute;
   left: 0;
@@ -311,9 +306,9 @@ h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
   margin-top: -10px;
-}
+} */
 
-.main-nav .drop-down:hover > ul {
+/* .main-nav .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -361,7 +356,7 @@ h6 {
   content: "\f105";
   position: absolute;
   right: 15px;
-}
+} */
 
 /* Mobile Navigation */
 
@@ -741,6 +736,7 @@ h6 {
 #portfolio {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background:#d6eaff; 
 }
 
 #portfolio #portfolio-flters {
@@ -883,26 +879,24 @@ h6 {
   opacity: 1;
 }
 
-/* Testimonials Section
---------------------------------*/
-
 
 /* Team Section
 --------------------------------*/
 
 #team {
-  background:#d6eaff; 
+  /* background:#d6eaff;  */
   padding: 60px 0;
+
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #team .member {
   text-align: center;
   margin-top: 20px;
-  margin-left: 305px;
   position: relative; 
   /* border-radius: 50%; */
    overflow: hidden;
+   margin-left: 80px;
 }s
 
 /* #team .member .member-info {
@@ -1302,14 +1296,25 @@ h6 {
 
 @media (max-width: 991px) {
   #header {
-    height: 60px;
+    height: 100px;
     padding: 10px 0;
+    border-radius: 0 0 20px 20px;
   }
 
-  /* #header .logo h1 {
+  #header.header-scrolled,
+  #header.header-pages {
+  height: 100px;
+  padding: 10px 0;
+  /* background: #034694; */
+  /* opacity: 0.9; */
+
+  background: whitesmoke;
+}
+
+  #header .logo {
     font-size: 28px;
     padding: 8px 0;
-  } */
+  }
 
   #intro {
     padding: 140px 0 60px 0;
@@ -1369,18 +1374,18 @@ h6 {
   }
 }
 
-@media (max-width: 574px) {
-  #intro {
+@media (max-width: 991px) {
+  /* #intro {
     padding: 100px 0 20px 0;
+  } */
+
+  #intro .intro-img img {
+    margin-top: -10px;
+    max-width: 200px;
   }
 }
 
 @media (max-width: 800px) {
-
-  
-img{
-  max-width: 1000px;
-}
 
 #header .logo img {
   margin: -10px -100px;
