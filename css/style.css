@@ -122,7 +122,7 @@ h6 {
   padding: 18px 0;
   /* background: #fff; */
   opacity: 0.9;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px 1px black;
   background: #034694;
   border-radius: 0px 0px 50px 50px;
 }
@@ -134,6 +134,7 @@ h6 {
   /* background: #034694; */
   /* opacity: 0.9; */
   background: #034694;
+  box-shadow: 10px 10px 10px 1px black;
 }
 
 #header .logo h1 {
@@ -176,6 +177,7 @@ h6 {
   padding: 200px 0 120px 0;
   /* border-radius: 20%; */
   border-radius: 0px 0px 80px 80px;
+  box-shadow: 4px 5px 11px 8px black;
 }
 
 #intro .intro-img {
@@ -191,14 +193,16 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
+  color: whitesmoke;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
+  box-shadow: -10px 12px 11px 5px black;
+  
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: yellow;
   text-decoration: underline;
 }
 
@@ -218,24 +222,22 @@ h6 {
 
 #intro .intro-info .btn-get-started {
   background: #007bff;
-  border: 2px solid #007bff;
-  color: #fff;
+  border: 2px solid #fff;
 }
 
 #intro .intro-info .btn-get-started:hover {
-  background: none;
-  border-color: #fff;
-  color: #fff;
+  background: darkblue;
+  border-color: whitesmoke;
 }
 
 #intro .intro-info .btn-services {
+  background: #007bff;
   border: 2px solid #fff;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
-  color: #fff;
+  background: darkblue;
+  border-color: whitesmoke;
 }
 
 /*--------------------------------------------------------------
@@ -244,18 +246,12 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
-
 .main-nav,
 .main-nav * {
   margin: 0;
   padding: 0;
   list-style: none;
   margin-top: 12px;
-
 
 }
 
@@ -280,10 +276,11 @@ h6 {
 .main-nav a:hover {
   display: block;
   position: relative;
+  color: yellow;
 
   padding: 10px 15px;
   font-size: 14px;
-  transition-duration: 20ms;
+  transition-duration: 60ms;
 
   
 }
