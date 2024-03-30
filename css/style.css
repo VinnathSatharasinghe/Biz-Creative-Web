@@ -1,14 +1,3 @@
-/*
-  Theme Name: NewBiz
-  Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 body {
   background: #fff;
   color: #444;
@@ -19,6 +8,7 @@ a {
   color: #007bff;
   transition: 0.5s;
 }
+
 
 a:hover,
 a:active,
@@ -125,19 +115,25 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 120px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+  padding: 18px 0;
+  /* background: #fff; */
+  opacity: 0.9;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  background: #034694;
+  border-radius: 0px 0px 50px 50px;
 }
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 110px;
   padding: 10px 0;
+  /* background: #034694; */
+  /* opacity: 0.9; */
+  background: #034694;
 }
 
 #header .logo h1 {
@@ -157,9 +153,9 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 5px -120px;
+  max-height: 166px;
+  max-width: 200px;
 }
 
 .main-pages {
@@ -172,15 +168,21 @@ h6 {
 
 #intro {
   width: 100%;
+  height: 600px;
+  opacity: 0.9;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../imG/CITY/88.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
+  /* border-radius: 20%; */
+  border-radius: 0px 0px 80px 80px;
 }
 
 #intro .intro-img {
   width: 50%;
   float: right;
+  margin-top: -10px;
+  margin-right: -700px;
 }
 
 #intro .intro-info {
@@ -252,6 +254,9 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-top: 12px;
+
+
 }
 
 .main-nav > ul > li {
@@ -263,22 +268,35 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: whitesmoke;
   padding: 10px 15px;
-  transition: 0.3s;
+  transition: 0.9s;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
+  
 }
+
+.main-nav a:hover {
+  display: block;
+  position: relative;
+
+  padding: 10px 15px;
+  font-size: 14px;
+  transition-duration: 20ms;
+
+  
+}
+
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
   text-decoration: none;
+
 }
 
-.main-nav .drop-down ul {
+/* .main-nav .drop-down ul {
   display: block;
   position: absolute;
   left: 0;
@@ -290,9 +308,10 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
-}
+  margin-top: -10px;
+} */
 
-.main-nav .drop-down:hover > ul {
+/* .main-nav .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -340,7 +359,7 @@ h6 {
   content: "\f105";
   position: absolute;
   right: 15px;
-}
+} */
 
 /* Mobile Navigation */
 
@@ -492,6 +511,11 @@ h6 {
 
 #about .about-container .content {
   background: #fff;
+}
+
+#about img {
+  border-radius: 10%;
+  margin-left: 300px;
 }
 
 #about .about-container .title {
@@ -720,6 +744,7 @@ h6 {
 #portfolio {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background:#d6eaff; 
 }
 
 #portfolio #portfolio-flters {
@@ -862,82 +887,27 @@ h6 {
   opacity: 1;
 }
 
-/* Testimonials Section
---------------------------------*/
-
-#testimonials {
-  padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-
-#testimonials .section-header {
-  margin-bottom: 40px;
-}
-
-#testimonials .testimonial-item .testimonial-img {
-  width: 120px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  float: left;
-}
-
-#testimonials .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-  margin-left: 140px;
-}
-
-#testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 15px 0;
-  margin-left: 140px;
-}
-
-#testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 140px;
-}
-
-#testimonials .owl-nav,
-#testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#testimonials .owl-dot.active {
-  background-color: #007bff;
-}
 
 /* Team Section
 --------------------------------*/
 
 #team {
-  background: #fff;
+  /* background:#d6eaff;  */
   padding: 60px 0;
+
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  border-radius: 50%;
-  overflow: hidden;
-}
+  margin-top: 20px;
+  position: relative; 
+  /* border-radius: 50%; */
+   overflow: hidden;
+   margin-left: 80px;
+}s
 
-#team .member .member-info {
+/* #team .member .member-info {
   opacity: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -957,7 +927,7 @@ h6 {
   left: 0;
   right: 0;
   transition: 0.2s;
-}
+} */
 
 #team .member .member-info-content {
   margin-top: 50px;
@@ -1331,19 +1301,23 @@ h6 {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 992px) {
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
 
 @media (max-width: 991px) {
   #header {
-    height: 60px;
+    height: 100px;
     padding: 10px 0;
+    border-radius: 0 0 20px 20px;
   }
 
-  #header .logo h1 {
+  #header.header-scrolled,
+  #header.header-pages {
+  height: 100px;
+  padding: 10px 0;
+  /* background: #034694; */
+  /* opacity: 0.9; */  background: whitesmoke;
+}
+
+  #header .logo {
     font-size: 28px;
     padding: 8px 0;
   }
@@ -1352,11 +1326,6 @@ h6 {
     padding: 140px 0 60px 0;
   }
 
-  #intro .intro-img {
-    width: 80%;
-    float: none;
-    margin: 0 auto 25px auto;
-  }
 
   #intro .intro-info {
     width: 80%;
@@ -1368,7 +1337,29 @@ h6 {
   #why-us .card {
     margin: 0;
   }
+
+  #about img {
+    border-radius: 10%;
+    margin-left: -10px;
+  }
+  
 }
+
+/* @media (max-width: 991px) {
+  #about .container .testa img {
+
+    margin-left: 1000px;
+  }
+
+}
+ */
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .back-to-top {
@@ -1390,24 +1381,22 @@ h6 {
     width: 100%;
   }
 
-  #testimonials .testimonial-item {
-    text-align: center;
-  }
+}
 
-  #testimonials .testimonial-item .testimonial-img {
-    float: none;
-    margin: auto;
-  }
+@media (max-width: 991px) {
 
-  #testimonials .testimonial-item h3,
-  #testimonials .testimonial-item h4,
-  #testimonials .testimonial-item p {
-    margin-left: 0;
+  #intro .intro-img img {
+    margin-top: -10px;
+    max-width: 200px;
   }
 }
 
-@media (max-width: 574px) {
-  #intro {
-    padding: 100px 0 20px 0;
-  }
+@media (max-width: 800px) {
+
+#header .logo img {
+  margin: -10px -100px;
+  max-height: 166px;
+  max-width: 200px;
+}
+
 }
