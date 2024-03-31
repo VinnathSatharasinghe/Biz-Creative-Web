@@ -902,7 +902,7 @@ h6 {
   /* border-radius: 50%; */
    overflow: hidden;
    margin-left: 80px;
-}s
+}
 
 /* #team .member .member-info {
   opacity: 0;
@@ -1371,6 +1371,17 @@ h6 {
   #intro .intro-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
+  }
+
+  #team .member img {
+   width: 70%;
+   margin-left: -30px;
+  }
+
+  #team .member p {
+    align-items: center;
+    margin-top: 20px;
+     margin-left: -45px;
   }
 
   .section-header p {
