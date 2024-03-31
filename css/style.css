@@ -1323,6 +1323,13 @@ h6 {
     padding: 140px 0 60px 0;
   }
 
+  #intro .intro-img {
+    width: 20%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 220px;
+  }
+
 
   #intro .intro-info {
     width: 80%;
@@ -1342,14 +1349,6 @@ h6 {
   
 }
 
-/* @media (max-width: 991px) {
-  #about .container .testa img {
-
-    margin-left: 1000px;
-  }
-
-}
- */
 
 
 
@@ -1391,9 +1390,9 @@ h6 {
 @media (max-width: 800px) {
 
 #header .logo img {
-  margin: -10px -100px;
+  margin: 20px -10px;
   max-height: 166px;
-  max-width: 200px;
+  max-width: 100px;
 }
 
 }
