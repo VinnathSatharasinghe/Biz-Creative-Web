@@ -510,10 +510,17 @@ h6 {
   background: #fff;
 }
 
-#about img {
+#about .pic1 img {
   border-radius: 10%;
   margin-left: 300px;
 }
+
+#about .pic2 img {
+  border-radius: 10%;
+  margin-left: 300px;
+}
+
+
 
 #about .about-container .title {
   color: #333;
@@ -1342,13 +1349,21 @@ h6 {
     margin: 0;
   }
 
-  #about img {
+  #about .pic1 img {
     border-radius: 10%;
-    margin-left: -10px;
+    margin-left: 0px;
   }
+  
+  /* #about .pic2 img {
+    border-radius: 10%;
+    margin-left: 110px;
+  }
+   */
   
 }
 
+
+/* style="border-radius: 10%; margin-left: -10px; margin-top: 10px;" */
 
 
 
@@ -1375,17 +1390,14 @@ h6 {
 
   #team .member img {
    width: 80%;
-   margin-left: -60px;
-   box-shadow: 7px 4px 7px 1px black;
+   margin-left: -55px;
   
   }
 
 
   #team .member {
-    text-align: center;
     margin-top: 20px;
     position: relative; 
-    /* border-radius: 50%; */
      overflow: hidden;
 
   }
