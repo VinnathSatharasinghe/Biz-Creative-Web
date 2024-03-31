@@ -1373,10 +1373,10 @@ h6 {
     margin-bottom: 30px;
   }
 
-  /* #team .member img {
+  #team .member img {
    width: 80%;
    margin-left: -50px;
-  } */
+  }
 
   #team .member {
     text-align: center;
@@ -1384,7 +1384,13 @@ h6 {
     position: relative; 
     /* border-radius: 50%; */
      overflow: hidden;
-     margin-left: 12px;
+
+  }
+
+  #team .member p {
+
+    margin-right: 60px;
+
   }
 
   .section-header p {
