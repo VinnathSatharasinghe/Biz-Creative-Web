@@ -121,9 +121,8 @@ h6 {
   transition: all 0.5s;
   padding: 18px 0;
   /* background: #fff; */
-  opacity: 0.9;
   box-shadow: 10px 10px 10px 1px black;
-  background: #034694;
+  background: whitesmoke;
   border-radius: 0px 0px 50px 50px;
 }
 
@@ -132,8 +131,8 @@ h6 {
   height: 110px;
   padding: 10px 0;
   /* background: #034694; */
-  /* opacity: 0.9; */
-  background: #034694;
+  opacity: 0.8;
+  background: lightcoral;
   box-shadow: 10px 10px 10px 1px black;
 }
 
@@ -172,7 +171,7 @@ h6 {
   height: 600px;
   opacity: 0.9;
   position: relative;
-  background: url("../imG/CITY/88.jpg") center bottom no-repeat;
+  background: url("../imG/CITY/99.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
   /* border-radius: 20%; */
@@ -264,7 +263,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: whitesmoke;
+  color: black;
   padding: 10px 15px;
   transition: 0.9s;
   font-size: 14px;
@@ -274,9 +273,9 @@ h6 {
 }
 
 .main-nav a:hover {
-  display: block;
-  position: relative;
-  color: yellow;
+  /* display: block;
+  position: relative; */
+  color: blue;
 
   padding: 10px 15px;
   font-size: 14px;
