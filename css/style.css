@@ -122,7 +122,8 @@ h6 {
   padding: 18px 0;
   /* background: #fff; */
   box-shadow: 10px 10px 10px 1px black;
-
+  background: url("../imG/CITY/333.jpg") bottom no-repeat;
+  /* background: url("../imG/CITY/88.jpg"); */
   border-radius: 0px 0px 50px 50px;
 }
 
@@ -168,26 +169,28 @@ h6 {
 
 #intro {
   width: 100%;
-  height: 600px;
+  height: 740px;
   position: relative;
-  background: url("../imG/CITY/333.jpg") center bottom no-repeat;
+  background: url("../imG/CITY/333.jpg") center;
   background-size: cover;
   padding: 200px 0 120px 0;
   /* border-radius: 20%; */
-  border-radius: 0px 0px 80px 80px;
+  /* border-radius: 0px 0px 80px 80px; */
   box-shadow: 4px 5px 11px 8px black;
 }
 
-#intro .intro-img {
-  width: 50%;
+/* #intro .intro-img {
+  width: 10%;
   float: right;
-  margin-top: -10px;
+  margin-top: -180px;
   margin-right: -700px;
-}
+} */
 
 #intro .intro-info {
   width: 50%;
   float: left;
+  margin-top: 200px;
+  margin-left: -100px;
 }
 
 #intro .intro-info h2 {
@@ -1309,14 +1312,14 @@ h6 {
     height: 100px;
     padding: 10px 0;
     border-radius: 0 0 20px 20px;
+    background: whitesmoke;
   }
 
   #header.header-scrolled,
   #header.header-pages {
   height: 100px;
   padding: 10px 0;
-  /* background: #034694; */
-  /* opacity: 0.9; */  background: whitesmoke;
+  background: whitesmoke;
 }
 
   #header .logo {
@@ -1328,19 +1331,26 @@ h6 {
     padding: 140px 0 60px 0;
   }
 
-  #intro .intro-img {
+  /* #intro .intro-img {
     width: 20%;
     float: right;
     margin-top: 100px;
     margin-right: 220px;
-  }
+  } */
 
 
   #intro .intro-info {
     width: 80%;
     float: none;
     margin: auto;
+    margin-top: 260px;
     text-align: center;
+  }
+
+  #header .logo img {
+    margin: 5px -70px;
+    max-height: 166px;
+    max-width: 150px;
   }
 
   #why-us .card {
