@@ -122,7 +122,7 @@ h6 {
   padding: 18px 0;
   /* background: #fff; */
   box-shadow: 10px 10px 10px 1px black;
-  background: url("../imG/CITY/88.jpg");
+
   border-radius: 0px 0px 50px 50px;
 }
 
@@ -131,7 +131,8 @@ h6 {
   height: 110px;
   padding: 10px 0;
   /* background: #034694; */
-  background: url("../imG/CITY/88.jpg");
+  /* background: url("../imG/CITY/88.jpg"); */
+  background: url("../imG/CITY/333.jpg") bottom no-repeat;
   box-shadow: 10px 10px 10px 1px black;
 }
 
@@ -169,7 +170,7 @@ h6 {
   width: 100%;
   height: 600px;
   position: relative;
-  background: url("../imG/CITY/101.jpg") center bottom no-repeat;
+  background: url("../imG/CITY/333.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
   /* border-radius: 20%; */
