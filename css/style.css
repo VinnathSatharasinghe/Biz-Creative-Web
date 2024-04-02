@@ -267,29 +267,10 @@ h6 {
   position: relative;
   color: darkblue;
   padding: 10px 15px;
+  font-weight: 800;
   transition: 0.9s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-
-  
-}
-
-.main-nav button {
-  transition-duration: 60ms;
-  display: block;
-  position: relative;
-  color: black;
-  transition: 0.9s;
-  font-size: 14px;
-  font-weight: 800;
-  padding: 10px 15px;
-  font-family: "Montserrat", sans-serif;
-  background-color: red;
-  border-radius: 10px 10px 10px 10px;
-  margin-top: -12px;
-  box-shadow: 4px 2px 4px 1px blue;
-  
+  font-family: "Montserrat", sans-serif;  
 }
 
 .main-nav a:hover {
@@ -299,16 +280,37 @@ h6 {
   padding: 10px 15px;
   font-size: 14px;
   transition-duration: 60ms;
+  
 }
+
+.main-nav button {
+  transition-duration: 60ms;
+  display: block;
+  position: relative;
+  color: whitesmoke;
+  transition: 0.9s;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 10px 15px;
+  font-family: "Montserrat", sans-serif;
+  background-color: darkblue;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: -12px;
+  box-shadow: 4px 2px 2px 1px red;
+  
+  
+}
+
+
 
 .main-nav button:hover {
   display: block;
   position: relative;
-  color: whitesmoke;
-  background-color: darkblue;
+  color: black;
   padding: 10px 15px;
   font-size: 14px;
-  box-shadow: 4px 2px 2px 1px red;
+  background-color: red;
+  box-shadow: 4px 2px 4px 1px blue;
 }
 
 
@@ -635,6 +637,7 @@ h6 {
 #why-us {
   padding: 60px 0;
   background: #004a99;
+  
 }
 
 #why-us .section-header h3,
@@ -642,22 +645,35 @@ h6 {
   color: #fff;
 }
 
+#why-us .section-header .readmoreq {
+  color: orange;
+  border-style: groove;
+  font-weight: 500;
+  transition: 0.9s ease-in-out; 
+  width: 380px;
+  margin-left: 360px;
+  /* border-bottom: whitesmoke solid 2px;  */
+
+}
+
 #why-us .card {
   background: #00458f;
-  border-color: #00458f;
-  border-radius: 10px;
+  border-color: orange;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
   color: #fff;
   transition: 0.3s ease-in-out;
   height: 100%;
+  margin-top: 50px;
+  border-radius: 45px 45px 45px 45px;
 }
 
 #why-us .card:hover {
-  /* background: #003b7a;
-  border-color: #003b7a; */
+  background: #003b7a;
+  border-color: black;
   background: orangered;
+  
 }
 
 #why-us .card i {
@@ -681,7 +697,7 @@ h6 {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out; 
- border-bottom: #00458f solid 2px; 
+  border-bottom: #00458f solid 2px; 
 }
 
 #why-us .card .readmore:hover {
@@ -697,7 +713,7 @@ h6 {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: orange;
 }
 
 #why-us .counters p {
@@ -705,7 +721,7 @@ h6 {
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #cce5ff;
+  color: orange;
 }
 
 /* Portfolio Section
@@ -1312,8 +1328,19 @@ h6 {
     max-width: 170px;
   }
 
+  #why-us .section-header .readmoreq {
+    color: orange;
+    border-style: groove;
+    font-weight: 500;
+    transition: 0.9s ease-in-out; 
+    width: 380px;
+    margin-left: 70px;
+  
+  }
+
   #why-us .card {
     margin: 0;
+    margin-top: 30px;
   }
 
   #about .pic1 img {
@@ -1366,8 +1393,19 @@ h6 {
     max-width: 150px;
   }
 
+  #why-us .section-header .readmoreq {
+    color: orange;
+    border-style: groove;
+    font-weight: 500;
+    transition: 0.9s ease-in-out; 
+    width: 380px;
+    margin-left: 40px;
+  
+  }
+
   #why-us .card {
     margin: 0;
+    margin-top: 30px;
   }
 
   #about .pic1 img {
