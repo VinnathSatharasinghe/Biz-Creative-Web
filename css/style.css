@@ -248,7 +248,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none; 
-  margin-top: 11px;
+  margin-top: 10px;
 
 }
 
@@ -280,8 +280,9 @@ h6 {
   font-weight: 800;
   padding: 10px 15px;
   font-family: "Montserrat", sans-serif;
-  background-color: lightcoral;
+  background-color: red;
   border-radius: 10px 10px 10px 10px;
+  margin-top: 6px;
   
 }
 
@@ -637,8 +638,9 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  /* background: #003b7a;
+  border-color: #003b7a; */
+  background: red;
 }
 
 #why-us .card i {
@@ -1253,7 +1255,9 @@ h6 {
 --------------------------------------------------------------*/
 
 
-@media (max-width: 991px) {
+
+@media (max-width: 1200px) {
+  
   #header {
     height: 100px;
     padding: 10px 0;
@@ -1277,14 +1281,6 @@ h6 {
     padding: 140px 0 60px 0;
   }
 
-  /* #intro .intro-img {
-    width: 20%;
-    float: right;
-    margin-top: 100px;
-    margin-right: 220px;
-  } */
-
-
   #intro .intro-info {
     width: 80%;
     float: none;
@@ -1296,7 +1292,7 @@ h6 {
   #header .logo img {
     margin: 5px -70px;
     max-height: 166px;
-    max-width: 150px;
+    max-width: 170px;
   }
 
   #why-us .card {
@@ -1308,11 +1304,60 @@ h6 {
     margin-left: 0px;
   }
   
-  /* #about .pic2 img {
-    border-radius: 10%;
-    margin-left: 110px;
+  
+}
+
+
+
+
+@media (max-width: 761px) {
+
+  #header {
+    height: 100px;
+    padding: 10px 0;
+    border-radius: 0 0 20px 20px;
+    background: whitesmoke;
   }
-   */
+
+  #header.header-scrolled,
+  #header.header-pages {
+  height: 100px;
+  padding: 10px 0;
+  background: whitesmoke;
+}
+
+  #header .logo {
+    font-size: 28px;
+    padding: 8px 0;
+  }
+
+  #intro {
+    padding: 140px 0 60px 0;
+  }
+
+  #intro .intro-info {
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-top: 380px;
+    text-align: center;
+  }
+
+  #header .logo img {
+    margin: 5px -10px;
+    max-height: 166px;
+    max-width: 150px;
+  }
+
+  #why-us .card {
+    margin: 0;
+  }
+
+  #about .pic1 img {
+    border-radius: 10%;
+    margin-left: -10px;
+  }
+  
   
 }
 
@@ -1376,7 +1421,7 @@ h6 {
   }
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 
 #header .logo img {
   margin: 20px -10px;
@@ -1384,4 +1429,4 @@ h6 {
   max-width: 100px;
 }
 
-}
+} */
