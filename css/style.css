@@ -629,6 +629,9 @@ h6 {
   margin-bottom: 0;
 }
 
+/* Why us
+--------------------------------*/
+
 #why-us {
   padding: 60px 0;
   background: #004a99;
@@ -654,13 +657,13 @@ h6 {
 #why-us .card:hover {
   /* background: #003b7a;
   border-color: #003b7a; */
-  background: red;
+  background: orangered;
 }
 
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: whitesmoke;
 }
 
 #why-us .card h5 {
@@ -677,8 +680,8 @@ h6 {
   color: #fff;
   font-weight: 600;
   display: inline-block;
-  transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  transition: 0.3s ease-in-out; 
+ border-bottom: #00458f solid 2px; 
 }
 
 #why-us .card .readmore:hover {
