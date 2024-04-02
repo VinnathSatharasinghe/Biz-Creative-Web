@@ -272,6 +272,7 @@ h6 {
 }
 
 .main-nav button {
+  transition-duration: 60ms;
   display: block;
   position: relative;
   color: black;
@@ -282,21 +283,30 @@ h6 {
   font-family: "Montserrat", sans-serif;
   background-color: red;
   border-radius: 10px 10px 10px 10px;
-  margin-top: 6px;
+  margin-top: -12px;
+  box-shadow: 5px 4px 2px 2px blue;
   
 }
 
 .main-nav a:hover {
   /* display: block;
   position: relative; */
-  color: blue;
-
+  color: black;
   padding: 10px 15px;
   font-size: 14px;
   transition-duration: 60ms;
-
-  
 }
+
+.main-nav button:hover {
+  display: block;
+  position: relative;
+  color: whitesmoke;
+  background-color: darkblue;
+  padding: 10px 15px;
+  font-size: 14px;
+  box-shadow: 5px 4px 2px 2px red;
+}
+
 
 
 .main-nav a:hover,
