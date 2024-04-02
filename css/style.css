@@ -170,8 +170,7 @@ h6 {
   background: url("../imG/CITY/333.jpg") center;
   background-size: cover;
   padding: 200px 0 120px 0;
-  /* border-radius: 20%; */
-  /* border-radius: 0px 0px 80px 80px; */
+
   box-shadow: 4px 5px 11px 8px black;
 }
 
@@ -218,23 +217,27 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
+  background: red;
   border: 2px solid #fff;
+  box-shadow: 3px 4px 2px 4px darkblue;
 }
 
 #intro .intro-info .btn-get-started:hover {
   background: darkblue;
   border-color: whitesmoke;
+  box-shadow: 3px 4px 2px 4px red;
 }
 
 #intro .intro-info .btn-services {
-  background: #007bff;
+  background: darkblue;
   border: 2px solid #fff;
+  box-shadow: 3px 4px 2px 4px red;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: darkblue;
+  background: red;
   border-color: whitesmoke;
+  box-shadow: 3px 4px 2px 4px darkblue;
 }
 
 /*--------------------------------------------------------------
@@ -245,7 +248,6 @@ h6 {
 
 .main-nav,
 .main-nav * {
-  margin: 0;
   padding: 0;
   list-style: none; 
   margin-top: 10px;
@@ -256,6 +258,7 @@ h6 {
   position: relative;
   white-space: nowrap;
   float: left;
+
 
 }
 
@@ -268,6 +271,7 @@ h6 {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+
   
 }
 
@@ -284,7 +288,7 @@ h6 {
   background-color: red;
   border-radius: 10px 10px 10px 10px;
   margin-top: -12px;
-  box-shadow: 5px 4px 2px 2px blue;
+  box-shadow: 4px 2px 4px 1px blue;
   
 }
 
@@ -304,7 +308,7 @@ h6 {
   background-color: darkblue;
   padding: 10px 15px;
   font-size: 14px;
-  box-shadow: 5px 4px 2px 2px red;
+  box-shadow: 4px 2px 2px 1px red;
 }
 
 
