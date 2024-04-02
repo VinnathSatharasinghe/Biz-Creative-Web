@@ -298,9 +298,7 @@ h6 {
   margin-top: -12px;
   box-shadow: 4px 2px 2px 1px red;
   
-  
 }
-
 
 
 .main-nav button:hover {
@@ -358,7 +356,35 @@ h6 {
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav button {
+  transition-duration: 60ms;
+  display: block;
+  position: relative;
+  color: whitesmoke;
+  transition: 0.9s;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 8px 10px;
+  background-color: darkblue;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 4px 2px 2px 1px red;
+  
+}
+
+.mobile-nav button:hover {
+  display: block;
+  position: relative;
+  color: black;
+  padding: 10px 15px;
+  font-size: 12px;
+  background-color: red;
+  box-shadow: 4px 2px 4px 1px blue;
+}
+
+
+
+
+/* .mobile-nav .drop-down > a:after {
   content: "\f078";
   font-family: FontAwesome;
   padding-left: 10px;
@@ -381,7 +407,7 @@ h6 {
 
 .mobile-nav .drop-down li {
   padding-left: 20px;
-}
+} */
 
 .mobile-nav-toggle {
   position: fixed;
@@ -893,27 +919,7 @@ h6 {
    margin-left: 80px;
 }
 
-/* #team .member .member-info {
-  opacity: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-} */
+
 
 #team .member .member-info-content {
   margin-top: 50px;
@@ -1399,7 +1405,7 @@ h6 {
     font-weight: 400;
     transition: 0.9s ease-in-out; 
     width: 350px;
-    margin-left: 25px;
+    margin-left: 22px;
     font-size: 27px;
   
   }
