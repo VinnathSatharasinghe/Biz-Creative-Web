@@ -1354,7 +1354,7 @@ h6 {
 
 
 
-@media (max-width: 761px) {
+@media (max-width: 561px) {
 
   #header {
     height: 100px;
@@ -1396,10 +1396,11 @@ h6 {
   #why-us .section-header .readmoreq {
     color: orange;
     border-style: groove;
-    font-weight: 500;
+    font-weight: 400;
     transition: 0.9s ease-in-out; 
-    width: 380px;
-    margin-left: 40px;
+    width: 350px;
+    margin-left: 25px;
+    font-size: 27px;
   
   }
 
