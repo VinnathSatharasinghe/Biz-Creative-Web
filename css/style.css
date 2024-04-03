@@ -180,7 +180,7 @@ h6 {
 #intro .intro-info {
   width: 50%;
   float: left;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: -100px;
 }
 
@@ -509,13 +509,14 @@ h6 {
 
 
 #about .about-container .title {
-  color: #333;
+  color: darkblue;
   font-weight: 700;
   font-size: 32px;
 }
 
 #about .about-container p {
   line-height: 26px;
+  color: darkblue;
 }
 
 #about .about-container p:last-child {
