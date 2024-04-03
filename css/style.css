@@ -459,7 +459,7 @@ h6 {
 --------------------------------*/
 
 #about {
-  background: pink;
+  background: whitesmoke;
   padding: 60px 0;
 }
 
@@ -566,7 +566,8 @@ h6 {
   margin: 0 10px 40px 10px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
+  box-shadow: 6px 6px 6px 6px;
+  transition: all 0.6s ease-in-out;
 }
 
 #services .box:hover {
@@ -648,7 +649,7 @@ h6 {
 
 #why-us .card:hover {
   background: #003b7a;
-  border-color: black;
+  border-color: whitesmoke;
   background: transparent;
   
 }
@@ -710,6 +711,10 @@ h6 {
   background:#d6eaff; 
 }
 
+#portfolio .section-header .section-title {
+  color: darkblue;
+}
+
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
@@ -724,17 +729,17 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: whitesmoke;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ecf5ff;
+  background: darkblue;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: red;
   color: #fff;
 }
 
@@ -753,12 +758,10 @@ h6 {
   position: relative;
   border-radius: 6px;
   margin: 0;
+  border-radius: 11px 11px 11px 11px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover img {
-  opacity: 0.4;
-  transition: 0.3s;
-}
+
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info {
   position: absolute;
@@ -796,24 +799,24 @@ h6 {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
+/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
   color: #fff;
-}
+} */
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
+/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
   color: #007bff;
-}
+} */
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
+/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
   margin: 0;
   color: #e2effe;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
-}
+} */
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
+/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
   display: inline-block;
   line-height: 1;
@@ -823,32 +826,38 @@ h6 {
   background: #007bff;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
-}
+} */
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
+/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
-}
+} */
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
+/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
   background: #3395ff;
-}
+} */
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
+/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
   color: #fff;
+} */
+
+#portfolio .portfolio-item .portfolio-wrap:hover img {
+  opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
+box-shadow: 1px 1px 4px 5px red;
+border-radius: 11px 11px 11px 11px;
+transition: 0.8s;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
+/* #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
+} */
 
 
 /* Team Section
@@ -857,7 +866,6 @@ h6 {
 #team {
   /* background:#d6eaff;  */
   padding: 60px 0;
-
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -1123,14 +1131,16 @@ h6 {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 13px;
-  line-height: 24px;
+  line-height: 14px;
   font-family: "Montserrat", sans-serif;
   color: #ecf5ff;
   line-height: 2.0;
+  text-align: center;
 }
 
 #footer .footer-top .social-links a {
@@ -1146,6 +1156,8 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  text-align: center;
+  
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1160,20 +1172,25 @@ h6 {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
+  text-align: center;
+  
 }
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 #footer .footer-top .footer-links ul li {
   padding: 8px 0;
+  text-align: center;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1182,6 +1199,7 @@ h6 {
 
 #footer .footer-top .footer-links ul a {
   color: #ecf5ff;
+  text-align: center;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -1190,15 +1208,18 @@ h6 {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  text-align: center;
 }
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
   line-height: 2.0;
+  text-align: center;
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {
@@ -1216,6 +1237,7 @@ h6 {
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
+  
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
@@ -1235,6 +1257,7 @@ h6 {
 
 #footer .credits a {
   color: #bfddfe;
+  
 }
 
 #footer .credits a:hover {
