@@ -1346,9 +1346,9 @@ transition: 0.8s;
     width: 350px;
     margin-left: 80px;
     font-size: 27px;
-  
   }
   
+
   }
 
   @media (max-width: 767px) {
@@ -1360,6 +1360,7 @@ transition: 0.8s;
       font-size: 34px;
       margin-bottom: 30px;
     }
+    
   
     #team .member img {
      width: 80%;
@@ -1435,7 +1436,7 @@ transition: 0.8s;
     font-weight: 400;
     transition: 0.9s ease-in-out; 
     width: 350px;
-    margin-left: 30px;
+    margin-left: 16px;
     font-size: 27px;
   
   }
