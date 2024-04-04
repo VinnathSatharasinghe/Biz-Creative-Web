@@ -155,7 +155,7 @@ h6 {
   max-height: 166px;
   max-width: 210px;
   margin-left: -180px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .main-pages {
@@ -477,12 +477,13 @@ h6 {
 
   text-align: center;
   font-size: 16px;
+  color: #00428a;
 }
 
 #about .pic1 img {
   border-radius: 10%;
   margin-left: 280px;
-  box-shadow:  5px 11px 5px 5px black;
+  box-shadow:  5px 5px 5px 5px black;
 }
 
 #about .about-extra {
@@ -491,14 +492,13 @@ h6 {
 
 #about .about-extra h4 {
   color: #003166;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 24px;
   margin-left: 470px;
  
 }
 
 #about .about-extra p {
-  font-weight: 400;
   font-size: 16px;
   color: #00428a;
   text-align: center;
@@ -609,14 +609,18 @@ h6 {
   margin-bottom: 15px;
   font-size: 18px;
   color: #003166;
+  
 }
 
 #services .title a {
-  color: #111;
+  color: #007bff;
+
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: red;
+  
+
 }
 
 #services .description {
@@ -925,6 +929,24 @@ transition: 0.8s;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#team .member img {
+  width: 360px;
 }
 
 #team .member span {
