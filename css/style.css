@@ -152,10 +152,9 @@ h6 {
 /* main logo */
 
 #header .logo img {
-  /* margin: 25px -160px; */
   max-height: 166px;
   max-width: 210px;
-  margin-left: -90px;
+  margin-left: -180px;
   margin-top: 10px;
 }
 
@@ -242,6 +241,10 @@ h6 {
 
 /* Desktop Navigation */
 
+/* nav {
+  margin-left: -700px;
+} */
+
 .main-nav,
 .main-nav * {
   padding: 0;
@@ -270,8 +273,8 @@ h6 {
 }
 
 .main-nav a:hover {
-  /* display: block;
-  position: relative; */
+  display: block;
+  position: relative;
   color: black;
   padding: 10px 15px;
   font-size: 14px;
@@ -432,7 +435,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #003166;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -605,6 +608,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  color: #003166;
 }
 
 #services .title a {
@@ -884,23 +888,21 @@ transition: 0.8s;
 
 #team .section-header h3 {
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 #team .member {
-  text-align: center;
+  text-align:center;
   margin-top: 20px;
   position: relative; 
-  /* border-radius: 50%; */
-   overflow: hidden;
-   margin-left: 80px;
+  /* overflow: hidden; */
+  margin-left: 80px;
 }
 
 
 #team .member p {
   margin-left: -30px;
-
 }
-
 
 
 #team .member .member-info-content {
@@ -992,6 +994,7 @@ transition: 0.8s;
 }
 
 #contact .contact-about h3 {
+  color: #003166;
   font-size: 36px;
   margin: 0 0 10px 0;
   padding: 0;
@@ -1000,7 +1003,7 @@ transition: 0.8s;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+
 }
 
 #contact .contact-about p {
@@ -1341,10 +1344,46 @@ transition: 0.8s;
     font-weight: 400;
     transition: 0.9s ease-in-out; 
     width: 350px;
-    margin-left: 175px;
+    margin-left: 80px;
     font-size: 27px;
   
   }
+  
+  }
+
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  
+    #team .member img {
+     width: 80%;
+     margin-left: -55px;
+    
+    }
+  
+  
+    #team .member {
+      margin-top: 20px;
+      position: relative; 
+       /* overflow: hidden; */
+  
+    }
+  
+    #team .member p {
+  
+      margin-right: 70px;
+  
+    }
+  
+    .section-header p {
+      width: 100%;
+    }
   
   }
 
@@ -1419,7 +1458,7 @@ transition: 0.8s;
    #team .member {
      margin-top: 20px;
      position: relative; 
-     overflow: hidden;
+     /* overflow: hidden; */
    }
  
    #team .member p {
@@ -1440,41 +1479,7 @@ transition: 0.8s;
   }
 }
 
-@media (max-width: 767px) {
-  #intro .intro-info {
-    width: 100%;
-  }
 
-  #intro .intro-info h2 {
-    font-size: 34px;
-    margin-bottom: 30px;
-  }
-
-  #team .member img {
-   width: 80%;
-   margin-left: -55px;
-  
-  }
-
-
-  #team .member {
-    margin-top: 20px;
-    position: relative; 
-     overflow: hidden;
-
-  }
-
-  #team .member p {
-
-    margin-right: 70px;
-
-  }
-
-  .section-header p {
-    width: 100%;
-  }
-
-}
 
 @media (max-width: 991px) {
 
