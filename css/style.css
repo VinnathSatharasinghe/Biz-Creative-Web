@@ -460,14 +460,14 @@ h6 {
 
 #about {
   background: whitesmoke;
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 
-#about .container .section-header .h3 {
-  background: #fff;
+#about .container .section-header h3 {
+  color: #003166;
   text-align: center;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 #about .container .section-header p {
@@ -483,14 +483,14 @@ h6 {
 }
 
 #about .about-extra {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #about .about-extra h4 {
   color: #003166;
   font-weight: 800;
   font-size: 24px;
-  margin-left: 450px;
+  margin-left: 470px;
  
 }
 
@@ -501,7 +501,7 @@ h6 {
   text-align: center;
 }
 
-@media(max-width: 800px)  {
+@media(max-width: 1000px)  {
 
   #about .about-extra {
     padding-top: 30px;
@@ -511,13 +511,14 @@ h6 {
     color: #003166;
     font-weight: 800;
     font-size: 24px;
-    margin-left: 170px;
+    margin-left: 160px;
    
   }
   
 }
 
 @media(max-width: 450px)  {
+
 
   #about .container .section-header p {
 
@@ -532,8 +533,8 @@ h6 {
   #about .about-extra h4 {
     color: #003166;
     font-weight: 800;
-    font-size: 24px;
-    margin-left: 80px;
+    font-size: 20px;
+    margin-left: 110px;
    
   }
   #about .about-extra p {
@@ -881,6 +882,10 @@ transition: 0.8s;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
+#team .section-header h3 {
+  margin-left: 10px;
+}
+
 #team .member {
   text-align: center;
   margin-top: 20px;
@@ -888,6 +893,12 @@ transition: 0.8s;
   /* border-radius: 50%; */
    overflow: hidden;
    margin-left: 80px;
+}
+
+
+#team .member p {
+  margin-left: -30px;
+
 }
 
 
@@ -900,7 +911,6 @@ transition: 0.8s;
 #team .member:hover .member-info {
   background: rgba(0, 62, 128, 0.7);
   opacity: 1;
-  transition: 0.4s;
 }
 
 #team .member:hover .member-info-content {
@@ -922,23 +932,7 @@ transition: 0.8s;
   color: #fff;
 }
 
-#team .member .social {
-  margin-top: 15px;
-}
 
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #007bff;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 /* Clients Section
 --------------------------------*/
@@ -1340,6 +1334,17 @@ transition: 0.8s;
     border-radius: 10%;
     margin-left: 0px;
   }
+
+  #why-us .section-header .readmoreq {
+    color: orange;
+    border-style: groove;
+    font-weight: 400;
+    transition: 0.9s ease-in-out; 
+    width: 350px;
+    margin-left: 175px;
+    font-size: 27px;
+  
+  }
   
   }
 
@@ -1391,7 +1396,7 @@ transition: 0.8s;
     font-weight: 400;
     transition: 0.9s ease-in-out; 
     width: 350px;
-    margin-left: 22px;
+    margin-left: 30px;
     font-size: 27px;
   
   }
@@ -1405,6 +1410,22 @@ transition: 0.8s;
     border-radius: 10%;
     margin-left: -10px;
   }
+
+  #team .member img {
+    width: 80%;
+    margin-left: -66px;
+   }
+ 
+   #team .member {
+     margin-top: 20px;
+     position: relative; 
+     overflow: hidden;
+   }
+ 
+   #team .member p {
+     margin-right: 45px;
+ 
+   }
   
   
 }
