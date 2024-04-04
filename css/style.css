@@ -517,18 +517,30 @@ h6 {
   
 }
 
-@media(max-width: 600px)  {
+@media(max-width: 450px)  {
+
+  #about .container .section-header p {
+
+    text-align: center;
+    font-size: 12px;
+  }
 
   #about .about-extra {
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   #about .about-extra h4 {
     color: #003166;
     font-weight: 800;
     font-size: 24px;
-    margin-left: 130px;
+    margin-left: 80px;
    
+  }
+  #about .about-extra p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #00428a;
+    text-align: center;
   }
   
 }
@@ -1276,7 +1288,7 @@ transition: 0.8s;
     height: 100px;
     padding: 10px 0;
     border-radius: 0 0 20px 20px;
-    background-color: #fad6a5;
+    background-color: whitesmoke;
   }
 
   #header.header-scrolled,
