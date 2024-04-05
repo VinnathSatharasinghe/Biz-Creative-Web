@@ -842,15 +842,6 @@ h2 span.typing-animation {
   margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap {
-  overflow: hidden;
-  position: relative;
-  border-radius: 6px;
-  margin: 0;
-  border-radius: 11px 11px 11px 11px;
-}
-
-
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info {
   position: absolute;
@@ -888,58 +879,23 @@ h2 span.typing-animation {
   padding-bottom: 0;
 }
 
-/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #fff;
-} */
-
-/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
-} */
-
-/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
-  padding: 0;
+#portfolio .portfolio-item .portfolio-wrap img {
+  overflow: hidden;
+  position: relative;
+  border-radius: 6px;
   margin: 0;
-  color: #e2effe;
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-} */
-
-/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
-  display: inline-block;
-  line-height: 1;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  background: #007bff;
-  border-radius: 50%;
-  margin: 10px 4px 0 4px;
-} */
-
-/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
-  padding-top: 6px;
-  font-size: 22px;
-  color: #fff;
-} */
-
-/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
-} */
-
-/* #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-  color: #fff;
-} */
+  border-radius: 11px 11px 11px 11px;
+  transition: 0.8s;
+}
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
   opacity: 1;
+  transition: 0.8s;
+  margin-top: -20px;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-box-shadow: 1px 1px 4px 5px red;
+
 border-radius: 11px 11px 11px 11px;
 transition: 0.8s;
 }
@@ -1027,12 +983,125 @@ transition: 0.8s;
 
 
 
+
+
+
+
+
+
+
+
 /* Clients Section
 --------------------------------*/
 
+@keyframes slide2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-70%);
+  }
+}
+
+#clients .logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 10px 16px 10px black;
+}
+
+#clients .logos:hover {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 10px 16px 10px black;
+
+}
+
+#clients .logos:before,
+#clients .logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+#clients .logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}s
+
+#clients .logos:after {
+  right: 20;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+/* #clients .logos:hover .logos-slide {
+  animation-play-state: paused;
+} */
+
+#clients .logos-slide {
+  display: inline-block;
+  animation: 35s slide2 infinite linear;
+}
+
+#clients .logos-slide img {
+  height: 70px;
+  margin: 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #clients {
   padding: 60px 0;
+  background: #004a99;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#clients .section-header h3 {
+  color: whitesmoke;
+}
+
+#clients .section-header p {
+  color: whitesmoke;
 }
 
 #clients .clients-wrap {
@@ -1628,6 +1697,27 @@ transition: 0.8s;
     100%{
       left: 0;
     }
+  }
+
+  #portfolio .portfolio-item .portfolio-wrap img {
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    margin: 0;
+    border-radius: 11px 11px 11px 11px;
+    transition: 0.8s;
+  }
+  
+  #portfolio .portfolio-item .portfolio-wrap:hover img {
+    opacity: 1;
+    transition: 0.8s;
+    margin-top: -20px;
+  }
+  
+  #portfolio .portfolio-item .portfolio-wrap:hover {
+  
+  border-radius: 11px 11px 11px 11px;
+  transition: 0.8s;
   }
   
   
