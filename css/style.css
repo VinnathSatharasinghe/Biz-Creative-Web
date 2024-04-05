@@ -247,16 +247,7 @@ h2 span.typing-animation {
   margin: 5px 0;
   line-height: 90px;
 }
-/* #intro .intro-info .dynamic-txts li span::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: transparent;
-  border-left: 2px solid #FC6D6D;
-  animation: typing 3s steps(10) infinite;
-} */
+
 @keyframes typing {
   40%, 60%{
     left: calc(10% + 310px);
@@ -1534,6 +1525,20 @@ transition: 0.8s;
     text-align: center;
   }
 
+  #intro .intro-info .btn-get-started {
+    background: #0067d5;
+    border: 2px solid #fff;
+    box-shadow: 3px 2px 2px 2px darkblue;
+    margin-left: 47px;
+  }
+  
+  #intro .intro-info .btn-services {
+    background: #0067d5;
+    border: 2px solid #fff;
+    box-shadow: 3px 2px 2px 2px darkblue;
+    margin-left: 47px;
+  }
+
   #header .logo img {
     margin: 5px -10px;
     max-height: 166px;
@@ -1576,6 +1581,54 @@ transition: 0.8s;
      margin-right: 45px;
  
    }
+
+   /* into text animation */
+
+
+   #intro .intro-info .wrapper .static-txt{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+    overflow: hidden;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  #intro .intro-info .wrapper .dynamic-txts{
+    margin-left: -60px;
+    height: 90px;
+    line-height: 10px;
+    overflow: hidden;
+    width: 410px;
+  }
+  #intro .intro-info .dynamic-txts li{
+    list-style: none;
+    color: lightskyblue;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    animation: slide 15s infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -280px;
+    }
+  }
+  #intro .intro-info .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  
+  @keyframes typing {
+    40%, 60%{
+      left: calc(10% + 310px);
+    }
+    100%{
+      left: 0;
+    }
+  }
   
   
 }
