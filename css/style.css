@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 body {
   background: #fff;
   color: #444;
@@ -197,6 +199,77 @@ h6 {
   text-decoration: underline;
 }
 
+h2 span.typing-animation {
+  color: yellow; 
+} 
+
+
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343F4F;
+} */
+
+
+#intro .intro-info .wrapper .static-txt{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  overflow: hidden;
+  list-style: none;
+  margin-left: 30px;
+}
+#intro .intro-info .wrapper .dynamic-txts{
+  margin-left: -10px;
+  height: 90px;
+  line-height: 10px;
+  overflow: hidden;
+  width: 1110px;
+}
+#intro .intro-info .dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 15s infinite;
+}
+@keyframes slide {
+  100%{
+    top: -280px;
+  }
+}
+#intro .intro-info .dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+/* #intro .intro-info .dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+} */
+@keyframes typing {
+  40%, 60%{
+    left: calc(10% + 310px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+
+
+
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
@@ -357,28 +430,31 @@ h6 {
 }
 
 .mobile-nav button {
-  transition-duration: 60ms;
+  transition-duration: 50ms;
+  padding: 4px 8px;
   display: block;
   position: relative;
   color: whitesmoke;
   transition: 0.9s;
   font-size: 12px;
   font-weight: 800;
-  padding: 8px 10px; 
-  background-color: darkblue;
+  background-color: #0067d5;
+  border-color: whitesmoke;
   border-radius: 10px 10px 10px 10px;
-  box-shadow: 4px 2px 2px 1px red;
+  box-shadow: 4px 2px 4px 1px darkblue;
+
   
 }
 
 .mobile-nav button:hover {
   display: block;
   position: relative;
-  color: black;
-  padding: 10px 15px;
+  padding: 4px 10px;
   font-size: 12px;
   background-color: red;
-  box-shadow: 4px 2px 4px 1px blue;
+  border-color: whitesmoke;
+  box-shadow: 4px 2px 2px 1px darkblue;
+
 }
 
 
