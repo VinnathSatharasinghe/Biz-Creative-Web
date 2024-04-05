@@ -212,7 +212,7 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: red;
+  background: #0067d5;
   border: 2px solid #fff;
   box-shadow: 3px 2px 2px 2px darkblue;
 }
@@ -220,19 +220,19 @@ h6 {
 #intro .intro-info .btn-get-started:hover {
   background: darkblue;
   border-color: whitesmoke;
-  box-shadow: 3px 2px 2px 2px red;
+  box-shadow: 3px 2px 2px 2px black;
 }
 
 #intro .intro-info .btn-services {
-  background: darkblue;
+  background: #0067d5;
   border: 2px solid #fff;
-  box-shadow: 3px 2px 2px 2px red;
+  box-shadow: 3px 2px 2px 2px darkblue;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: red;
+  background: darkblue;
   border-color: whitesmoke;
-  box-shadow: 3px 2px 2px 2px darkblue;
+  box-shadow: 3px 2px 2px 2px black;
 }
 
 /*--------------------------------------------------------------
@@ -287,15 +287,16 @@ h6 {
   display: block;
   position: relative;
   color: whitesmoke;
-  transition: 0.9s;
+  transition: 0.5s;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
   padding: 10px 15px;
   font-family: "Montserrat", sans-serif;
-  background-color: darkblue;
+  background-color: #0067d5;
   border-radius: 10px 10px 10px 10px;
   margin-top: -12px;
-  box-shadow: 4px 2px 2px 1px red;
+  border-color: whitesmoke;
+  box-shadow: 4px 2px 2px 1px darkblue;
   
 }
 
@@ -470,7 +471,7 @@ h6 {
 #about .container .section-header h3 {
   color: #003166;
   text-align: center;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 #about .container .section-header p {
@@ -946,7 +947,8 @@ transition: 0.8s;
 }
 
 #team .member img {
-  width: 360px;
+  width: 390px;
+  margin-right: 20px;
 }
 
 #team .member span {
@@ -1485,7 +1487,7 @@ transition: 0.8s;
 
   #team .member img {
     width: 80%;
-    margin-left: -66px;
+    margin-left: -40px;
    }
  
    #team .member {
