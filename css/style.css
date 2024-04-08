@@ -230,8 +230,9 @@ h2 span.typing-animation {
 }
 #intro .intro-info .dynamic-txts li{
   list-style: none;
-  color: #FC6D6D;
-  font-size: 60px;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 50px;
   font-weight: 500;
   position: relative;
   top: 0;
