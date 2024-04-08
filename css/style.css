@@ -901,9 +901,56 @@ border-radius: 11px 11px 11px 11px;
 transition: 0.8s;
 }
 
-/* #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-} */
+#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
+  opacity: 0;
+} 
+
+
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  width: 1136px;
+  height: 1536px;
+  background: #007bff;
+  border-radius: 50%;
+  margin: 10px 4px 0 4px;
+}
+
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+  padding-top: 6px;
+  font-size: 22px;
+  color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+  background: #3395ff;
+}
+
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+  color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-wrap:hover {
+  background: #003166;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Team Section
@@ -987,8 +1034,6 @@ transition: 0.8s;
 --------------------------------*/
 
 
-
-
 #clients {
   padding: 60px 0;
   background: #004a99;
@@ -1050,11 +1095,13 @@ transition: 0.8s;
 }
 
 #clients .logos {
+  width: 1400px;
   overflow: hidden;
   padding: 60px 0;
   background: white;
   white-space: nowrap;
   position: relative;
+  margin-left: -150px;
   border-radius: 30px 30px 30px 30px;
   box-shadow: 5px 10px 16px 10px black;
 }
@@ -1080,7 +1127,7 @@ transition: 0.8s;
   z-index: 2;
 }
 
-#clients .logos:before {
+/* #clients .logos:before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
 }s
@@ -1088,7 +1135,7 @@ transition: 0.8s;
 #clients .logos:after {
   right: 20;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-}
+} */
 
 /* #clients .logos:hover .logos-slide {
   animation-play-state: paused;
@@ -1096,7 +1143,7 @@ transition: 0.8s;
 
 #clients .logos-slide {
   display: inline-block;
-  animation: 35s slide2 infinite linear;
+  animation: 45s slide2 infinite linear;
 }
 
 #clients .logos-slide img {
