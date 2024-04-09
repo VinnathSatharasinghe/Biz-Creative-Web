@@ -974,7 +974,7 @@ transition: 0.8s;
 
 
 
-/* Team Section
+/* Founder Section
 --------------------------------*/
 
 #team {
@@ -997,18 +997,99 @@ transition: 0.8s;
 }
 
 
+#team .member .about-container img {
+
+  /* width: 150px;
+  margin-top: 50px;
+  margin-right: 400px; */
+
+  float: left;
+  background: #fff;
+  width: 200px;
+  height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+
+#team .member .about-container h4 {
+
+  color: black;
+  font-size: 14px;
+  margin-right: 600px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+#team .member .about-container .title {
+
+  color: black;
+  font-size: 14px;
+  margin-right: 600px;
+  padding-top: 0px;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.icon-box {
+  opacity: 0; /* Set initial opacity to 0 */
+  visibility: hidden; /* Hide the element */
+  animation: fadeInUp 1s ease forwards; /* Use CSS animation */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Start animation from a lower position */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End animation at its original position */
+    visibility: visible; /* Make the element visible when animation ends */
+  }
+}
+
+
+#about .about-container .description {
+  margin-left: 80px;
+  font-size: 14px;
+}
+
+
 #team .member p {
   margin-left: -30px;
 }
 
 
-#team .member .member-info-content {
-  margin-top: 50px;
-  transition: margin 0.2s;
+#team .member .member-info-content .social i {
+  /* margin-top: 50px;
+  transition: margin 0.2s; */
+
+  width: 100px;
+  margin-top: 20px;
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
   opacity: 1;
 }
 
