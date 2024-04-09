@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+
+
 body {
   background: #fff;
   color: #444;
@@ -112,30 +114,34 @@ h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 
 #header {
-  height: 120px;
+  height: 100px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 18px 0;
-  background-color: whitesmoke;
+  /* padding: 18px 0; */
+  background:url("/img/CITY/18504942_SL-062121-43870-05.jpg") left;
+  background-position: calc(90% - 10px) 37%;
   box-shadow: 10px 10px 10px 1px black;
-  border-radius: 0px 0px 50px 50px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 #header.header-scrolled,
 #header.header-pages {
   height: 110px;
-  padding: 10px 0;
-  background: whitesmoke;
+  /* padding: 10px 0; */
+  background:url("/img/CITY/18504942_SL-062121-43870-05.jpg") right;
+  background-position: calc(90% - 10px) 55%;
   box-shadow: 10px 10px 10px 1px black;
+  
 }
 
-#header .logo h1 {
+/* #header .logo h1 {
   font-size: 36px;
   margin: 0;
   padding: 0;
@@ -143,13 +149,13 @@ h6 {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
-}
+} */
 
-#header .logo h1 a,
+/* #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #00366f;
   text-decoration: none;
-}
+} */
 
 /* main logo */
 
@@ -157,147 +163,11 @@ h6 {
   max-height: 166px;
   max-width: 210px;
   margin-left: -180px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .main-pages {
   margin-top: 60px;
-}
-
-/*--------------------------------------------------------------
-# Intro Section
---------------------------------------------------------------*/
-
-#intro {
-  width: 100%;
-  height: 740px;
-  position: relative;
-  background: url("../imG/CITY/333.jpg") center;
-  background-size: cover;
-  padding: 200px 0 120px 0;
-  box-shadow: 4px 5px 11px 8px black;
-}
-
-#intro .intro-info {
-  width: 50%;
-  float: left;
-  margin-top: 150px;
-  margin-left: -100px;
-}
-
-#intro .intro-info h2 {
-  color: whitesmoke;
-  margin-bottom: 40px;
-  font-size: 48px;
-  font-weight: 700;
-  box-shadow: -10px 12px 11px 5px black;
-  
-}
-
-#intro .intro-info h2 span {
-  color: yellow;
-  text-decoration: underline;
-}
-
-h2 span.typing-animation {
-  color: yellow; 
-} 
-
-
-/* body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #343F4F;
-} */
-
-
-#intro .intro-info .wrapper .static-txt{
-  color: #fff;
-  font-size: 40px;
-  font-weight: 500;
-  overflow: hidden;
-  list-style: none;
-  margin-left: 30px;
-}
-#intro .intro-info .wrapper .dynamic-txts{
-  margin-left: -10px;
-  height: 90px;
-  line-height: 10px;
-  overflow: hidden;
-  width: 1110px;
-}
-#intro .intro-info .dynamic-txts li{
-  list-style: none;
-  text-transform: uppercase;
-  color: yellow;
-  font-size: 50px;
-  font-weight: 500;
-  position: relative;
-  top: 0;
-  animation: slide 15s infinite;
-}
-@keyframes slide {
-  100%{
-    top: -280px;
-  }
-}
-#intro .intro-info .dynamic-txts li span{
-  position: relative;
-  margin: 5px 0;
-  line-height: 90px;
-}
-
-@keyframes typing {
-  40%, 60%{
-    left: calc(10% + 310px);
-  }
-  100%{
-    left: 0;
-  }
-}
-
-
-
-
-
-#intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 0 20px 20px 0;
-  color: #fff;
-}
-
-#intro .intro-info .btn-get-started {
-  background: #0067d5;
-  border: 2px solid #fff;
-  box-shadow: 3px 2px 2px 2px darkblue;
-}
-
-#intro .intro-info .btn-get-started:hover {
-  background: darkblue;
-  border-color: whitesmoke;
-  box-shadow: 3px 2px 2px 2px black;
-}
-
-#intro .intro-info .btn-services {
-  background: #0067d5;
-  border: 2px solid #fff;
-  box-shadow: 3px 2px 2px 2px darkblue;
-}
-
-#intro .intro-info .btn-services:hover {
-  background: darkblue;
-  border-color: whitesmoke;
-  box-shadow: 3px 2px 2px 2px black;
 }
 
 /*--------------------------------------------------------------
@@ -306,27 +176,54 @@ h2 span.typing-animation {
 
 /* Desktop Navigation */
 
-/* nav {
-  margin-left: -700px;
-} */
 
-.main-nav,
+.main-nav ul{
+  float: right;
+  margin-right: -130px;
+  margin-top: 30px;
+}
+.main-nav ul li{
+  display: inline-block;
+  /* line-height: 80px; */
+  margin: 0 10px;
+  font-weight: 600px;
+}
+.main-nav ul li a{
+  color: black;
+  font-family: "Montserrat", sans-serif; 
+  border-radius: 33px;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+
+.main-nav a:hover {
+  display: block;
+  position: relative;
+  color: darkblue;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-weight: 800;
+  
+}
+
+
+ .main-nav,
 .main-nav * {
   padding: 0;
   list-style: none; 
-  margin-top: 10px;
 
 }
 
-.main-nav > ul > li {
+/* .main-nav > ul > li {
   position: relative;
   white-space: nowrap;
   float: left;
 
 
-}
+} */
 
-.main-nav a {
+/* .main-nav a {
   display: block;
   position: relative;
   color: darkblue;
@@ -335,31 +232,19 @@ h2 span.typing-animation {
   transition: 0.9s;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;  
-}
+} */
 
-.main-nav a:hover {
-  display: block;
-  position: relative;
-  color: black;
-  padding: 10px 15px;
-  font-size: 14px;
-  transition-duration: 60ms;
-  
-}
+
 
 .main-nav button {
-  transition-duration: 60ms;
-  display: block;
-  position: relative;
+  width: 110px;
+  height: 40px;
   color: whitesmoke;
-  transition: 0.5s;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
-  padding: 10px 15px;
   font-family: "Montserrat", sans-serif;
   background-color: #0067d5;
   border-radius: 10px 10px 10px 10px;
-  margin-top: -12px;
   border-color: whitesmoke;
   box-shadow: 4px 2px 2px 1px darkblue;
   
@@ -367,11 +252,8 @@ h2 span.typing-animation {
 
 
 .main-nav button:hover {
-  display: block;
-  position: relative;
   color: black;
-  padding: 10px 15px;
-  font-size: 14px;
+  font-size: 15px;
   background-color: red;
   box-shadow: 4px 2px 4px 1px blue;
 }
@@ -494,6 +376,145 @@ h2 span.typing-animation {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+
+
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+#intro {
+  width: 100%;
+  height: 740px;
+  position: relative;
+  background: url("../imG/CITY/tire.jpg") center;
+  background-size: cover;
+  padding: 200px 0 120px 0;
+  box-shadow: 4px 5px 11px 8px black;
+}
+
+#intro .intro-info {
+  width: 50%;
+  float: left;
+  margin-top: 150px;
+  margin-left: -100px;
+}
+
+#intro .intro-info h2 {
+  color: whitesmoke;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+  box-shadow: -10px 12px 11px 5px black;
+  
+}
+
+#intro .intro-info h2 span {
+  color: yellow;
+  text-decoration: underline;
+}
+
+h2 span.typing-animation {
+  color: yellow; 
+} 
+
+
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343F4F;
+} */
+
+
+#intro .intro-info .wrapper .static-txt{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  overflow: hidden;
+  list-style: none;
+  margin-left: 30px;
+}
+#intro .intro-info .wrapper .dynamic-txts{
+  margin-left: -10px;
+  height: 90px;
+  line-height: 10px;
+  overflow: hidden;
+  width: 1110px;
+}
+#intro .intro-info .dynamic-txts li{
+  list-style: none;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 15s infinite;
+}
+@keyframes slide {
+  100%{
+    top: -280px;
+  }
+}
+#intro .intro-info .dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+
+@keyframes typing {
+  40%, 60%{
+    left: calc(10% + 310px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+
+
+
+#intro .intro-info .btn-get-started,
+#intro .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+}
+
+#intro .intro-info .btn-get-started {
+  background: #0067d5;
+  border: 2px solid #fff;
+  box-shadow: 3px 2px 2px 2px darkblue;
+}
+
+#intro .intro-info .btn-get-started:hover {
+  background: darkblue;
+  border-color: whitesmoke;
+  box-shadow: 3px 2px 2px 2px black;
+}
+
+#intro .intro-info .btn-services {
+  background: #0067d5;
+  border: 2px solid #fff;
+  box-shadow: 3px 2px 2px 2px darkblue;
+}
+
+#intro .intro-info .btn-services:hover {
+  background: darkblue;
+  border-color: whitesmoke;
+  box-shadow: 3px 2px 2px 2px black;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sections
