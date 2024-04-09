@@ -135,8 +135,8 @@ h6 {
 #header.header-pages {
   height: 110px;
   /* padding: 10px 0; */
-  background:url("/img/CITY/18504942_SL-062121-43870-05.jpg") right;
-  background-position: calc(90% - 10px) 55%;
+  /* background:url("/img/CITY/18504942_SL-062121-43870-05.jpg") right;
+  background-position: calc(90% - 10px) 55%; */
   box-shadow: 10px 10px 10px 1px black;
   
 }
@@ -735,7 +735,7 @@ h2 span.typing-animation {
 }
 
 #why-us .section-header .readmoreq {
-  color: orange;
+  color: whitesmoke;
   border-style: groove;
   font-weight: 500;
   transition: 0.9s ease-in-out; 
@@ -747,7 +747,7 @@ h2 span.typing-animation {
 
 #why-us .card {
   background: #00458f;
-  border-color: orange;
+  border-color: whitesmoke;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
@@ -802,7 +802,7 @@ h2 span.typing-animation {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: orange;
+  color: whitesmoke;
 }
 
 #why-us .counters p {
@@ -810,7 +810,7 @@ h2 span.typing-animation {
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: orange;
+  color: whitesmoke;
 }
 
 /* Portfolio Section
@@ -1689,11 +1689,13 @@ transition: 0.8s;
     width: 100%;
     height: 790px;
     position: relative;
-    background: url("../imG/CITY/333.jpg") center;
+    background:url("/img/CITY/tire.jpg") left;
+    background-position: calc(90% - 10px) 37%;
     background-size: cover;
     padding: 200px 0 120px 0;
     box-shadow: 4px 5px 11px 8px black;
   }
+  
 
   #intro {
     padding: 140px 0 60px 0;
