@@ -953,6 +953,11 @@ transition: 0.8s;
   margin-left: 80px;
 }
 
+#team .member .about-container {
+
+  margin-left: 200px;
+}
+
 
 #team .member .about-container img {
 
@@ -985,28 +990,89 @@ transition: 0.8s;
   
 }
 
+#team .member .about-container .pic1 {
+  width: 150px;
+  height: 100px;
+  margin-left: -50px;
+}
 
-#team .member .about-container h4 {
+#team .member .about-container .title1 {
 
   color: black;
   font-size: 14px;
-  margin-right: 600px;
-  padding-top: 10px;
+  margin-right: 300px;
+  padding-top: 40px;
   font-weight: 600;
   font-size: 16px;
 
 }
 
-#team .member .about-container .title {
+-------------------------------
+
+#team .member .about-container .pic2 {
+  width: 450px;
+  height: 300px;
+  margin-left: -10px;
+  margin-bottom: 30px;
+}
+
+#team .member .about-container .title2 {
 
   color: black;
   font-size: 14px;
-  margin-right: 600px;
-  padding-top: 0px;
+  margin-right: 300px;
   font-weight: 600;
   font-size: 16px;
+  margin-bottom: 60px;
 
 }
+
+-----------------------------------
+
+
+
+#team .member .about-container .pic3 {
+  width: 350px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+#team .member .about-container .title3 {
+
+  color: black;
+  font-size: 14px;
+  margin-right: 300px;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 60px;
+
+}
+
+---------------------------------------
+
+
+#team .member .about-container img .pic4 {
+  width: 350px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+
+#team .member .about-container .title4 {
+
+  color: black;
+  font-size: 14px;
+  margin-right: 300px;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 60px;
+
+}
+
+-------------------------------
+
 
 .icon-box {
   opacity: 0; /* Set initial opacity to 0 */
@@ -1033,9 +1099,9 @@ transition: 0.8s;
 }
 
 
-#team .member p {
+/* #team .member p {
   margin-left: -30px;
-}
+} */
 
 
 #team .member .member-info-content .social i {
@@ -1069,12 +1135,6 @@ transition: 0.8s;
   color: #fff;
 }
 
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
 
 #team .member img {
   width: 390px;
