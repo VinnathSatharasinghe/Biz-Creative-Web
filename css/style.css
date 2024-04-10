@@ -1008,8 +1008,8 @@ transition: 0.8s;
 
   float: left;
   background: #fff;
-  width: 200px;
-  height: 70px;
+  width: 100px;
+  height: 60px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
