@@ -124,9 +124,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  /* padding: 18px 0; */
-  /* background:url("/img/CITY/delaney-van-q5bmwVJarGU-unsplash.jpg") center; */
-  /* background-color: lightcyan; */
   background: #720e9e;
   background-position: calc(101% - -50px) 97%;
   box-shadow: 0px 5px 6px 1px lightskyblue;
@@ -438,6 +435,7 @@ h2 span.typing-animation {
   overflow: hidden;
   list-style: none;
   margin-left: 30px;
+  margin-top: 140px;
 }
 #intro .intro-info .wrapper .dynamic-txts{
   margin-left: -10px;
@@ -597,50 +595,6 @@ h2 span.typing-animation {
   text-align: center;
 }
 
-@media(max-width: 1000px)  {
-
-  #about .about-extra {
-    padding-top: 30px;
-  }
-
-  #about .about-extra h4 {
-    color: #003166;
-    font-weight: 800;
-    font-size: 24px;
-    margin-left: 160px;
-   
-  }
-  
-}
-
-@media(max-width: 450px)  {
-
-
-  #about .container .section-header p {
-
-    text-align: center;
-    font-size: 12px;
-  }
-
-  #about .about-extra {
-    padding-top: 20px;
-  }
-
-  #about .about-extra h4 {
-    color: #003166;
-    font-weight: 800;
-    font-size: 20px;
-    margin-left: 110px;
-   
-  }
-  #about .about-extra p {
-    font-weight: 400;
-    font-size: 12px;
-    color: #00428a;
-    text-align: center;
-  }
-  
-}
 
 
 /* #about .about-container .title {
@@ -1555,26 +1509,51 @@ transition: 0.8s;
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1242px) {
   
   #header {
     height: 100px;
     padding: 10px 0;
     border-radius: 0 0 20px 20px;
-    background-color: whitesmoke;
   }
 
   #header.header-scrolled,
   #header.header-pages {
   height: 100px;
   padding: 10px 0;
-  background: whitesmoke;
+
 }
 
   #header .logo {
     font-size: 28px;
-    padding: 8px 0;
+    padding: 18px 0;
+    margin-left: 50px;
   }
+
+  .main-nav ul{
+    float: right;
+    margin-right: -50px;
+    margin-top: 30px;
+  }
+  .main-nav ul li{
+    display: inline-block;
+    /* line-height: 80px; */
+    margin: 0 10px;
+    font-weight: 600px;
+  }
+  .main-nav ul li a{
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif; 
+    border-radius: 33px;
+    font-size: 15px;
+    font-weight: 600;
+    
+  }
+
+
+  /* .main-nav button {
+    opacity: 1;
+  } */
 
   #intro {
     padding: 140px 0 60px 0;
@@ -1592,10 +1571,11 @@ transition: 0.8s;
     margin: 5px -70px;
     max-height: 166px;
     max-width: 170px;
+    border-radius: 10%;
   }
 
   #why-us .section-header .readmoreq {
-    color: orange;
+    color: whitesmoke;
     border-style: groove;
     font-weight: 500;
     transition: 0.9s ease-in-out; 
@@ -1615,19 +1595,65 @@ transition: 0.8s;
   }
 
   #why-us .section-header .readmoreq {
-    color: orange;
+    color: whitesmoke;
     border-style: groove;
     font-weight: 400;
     transition: 0.9s ease-in-out; 
-    width: 350px;
-    margin-left: 80px;
+    width: 400px;
+    margin-left: 350px;
     font-size: 27px;
   }
+
+  #intro .intro-info .wrapper .static-txt{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  overflow: hidden;
+  list-style: none;
+  margin-left: -870px;
+  margin-top: 350px;
+}
+#intro .intro-info .wrapper .dynamic-txts{
+  margin-left: -260px;
+  height: 90px;
+  line-height: 10px;
+  overflow: hidden;
+  width: 500px;
+}
+#intro .intro-info .dynamic-txts li{
+  list-style: none;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 15s infinite;
+ }
+
+ #clients .logos {
+  width: 1150px;
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  margin-left: -20px;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 10px 16px 10px black;
+}
+
+#team .member .about-container {
+
+  margin-left: 200px;
+}
+
+ 
   
 
-  }
+}
 
-  @media (max-width: 767px) {
+  @media (max-width: 1024px) {
     #intro .intro-info {
       width: 100%;
     }
@@ -1667,6 +1693,8 @@ transition: 0.8s;
 
 
 
+
+
 @media (max-width: 561px) {
 
   #header {
@@ -1674,6 +1702,11 @@ transition: 0.8s;
     padding: 10px 0;
     border-radius: 0 0 20px 20px;
     background-color: whitesmoke;
+  }
+
+  #header nav button {
+    width: 300px;
+    opacity: 0;
   }
 
   #header.header-scrolled,
@@ -1687,6 +1720,8 @@ transition: 0.8s;
     font-size: 28px;
     padding: 8px 0;
   }
+
+  
 
   #intro {
     width: 100%;
@@ -1860,3 +1895,50 @@ transition: 0.8s;
     max-width: 200px;
   }
 }
+
+
+@media(max-width: 1000px)  {
+
+  #about .about-extra {
+    padding-top: 30px;
+  }
+
+  #about .about-extra h4 {
+    color: #003166;
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 160px;
+   
+  }
+  
+}
+
+@media(max-width: 450px)  {
+
+
+  #about .container .section-header p {
+
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #about .about-extra {
+    padding-top: 20px;
+  }
+
+  #about .about-extra h4 {
+    color: #003166;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 110px;
+   
+  }
+  #about .about-extra p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #00428a;
+    text-align: center;
+  }
+  
+}
+
