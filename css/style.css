@@ -1210,7 +1210,7 @@ transition: 0.8s;
 }
 
 #clients .logos {
-  width: 1400px;
+  width: 1200px;
   overflow: hidden;
   padding: 60px 0;
   background: white;
@@ -1581,7 +1581,6 @@ transition: 0.8s;
 }
 
   #header .logo {
-    font-size: 28px;
     padding: 18px 0;
     margin-left: 50px;
   }
@@ -1601,8 +1600,8 @@ transition: 0.8s;
     color: whitesmoke;
     font-family: "Montserrat", sans-serif; 
     border-radius: 33px;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 550;
     
   }
 
@@ -1704,8 +1703,9 @@ transition: 0.8s;
   margin-left: 200px;
 }
 
- 
-  
+ #team .member p {
+  margin-left: -10px;
+} 
 
 }
 
