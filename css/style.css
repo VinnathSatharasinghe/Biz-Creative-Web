@@ -993,7 +993,7 @@ transition: 0.8s;
 #team .member .about-container .pic1 {
   width: 150px;
   height: 100px;
-  margin-left: -50px;
+  margin-left: -10px;
 }
 
 #team .member .about-container .title1 {
@@ -1007,13 +1007,13 @@ transition: 0.8s;
 
 }
 
--------------------------------
+/* ------------------------------- */
 
 #team .member .about-container .pic2 {
   width: 450px;
   height: 300px;
   margin-left: -10px;
-  margin-bottom: 30px;
+  margin-top: -20px;
 }
 
 #team .member .about-container .title2 {
@@ -1027,51 +1027,47 @@ transition: 0.8s;
 
 }
 
------------------------------------
+/* ----------------------------------- */
 
 
 
 #team .member .about-container .pic3 {
-  width: 350px;
-  height: 100px;
-  margin-left: -50px;
+
+  margin-left: 5px;
+  margin-top: -10px;
 }
 
 #team .member .about-container .title3 {
 
   color: black;
   font-size: 14px;
-  margin-right: 300px;
-  padding-top: 40px;
   font-weight: 600;
   font-size: 16px;
-  margin-bottom: 60px;
-
+  margin-left: -10px;
 }
 
----------------------------------------
+/* --------------------------------------- */
 
 
-#team .member .about-container img .pic4 {
-  width: 350px;
+#team .member .about-container .fpic{
+  margin-left: -160px;
+  margin-top: 90px;
+  width: 150px;
   height: 100px;
-  margin-left: -50px;
 }
-
 
 #team .member .about-container .title4 {
 
   color: black;
   font-size: 14px;
-  margin-right: 300px;
-  padding-top: 40px;
+  padding-top: 130px;
   font-weight: 600;
   font-size: 16px;
-  margin-bottom: 60px;
+  margin-right: 240px;
 
 }
 
--------------------------------
+/* ------------------------------- */
 
 
 .icon-box {
