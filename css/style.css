@@ -350,7 +350,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: whitesmoke;
 }
 
 .mobile-nav-overly {
@@ -2233,7 +2233,10 @@ transition: 0.8s;
 
   @media (max-width: 767px) {
 
-    /* Back to top button */
+    #header .container img {
+      width: 120px;
+      margin-top: 0px;
+    }
 
 
     
@@ -2246,7 +2249,7 @@ transition: 0.8s;
 
     #header .logo {
       padding: 18px 0;
-      margin-left: 40px;
+      margin-left: -10px;
     }
 
     #intro .intro-info {
@@ -2767,7 +2770,144 @@ transition: 0.8s;
   
   }
 
+  @media (max-width: 449px) {
 
+    #header .logo {
+      padding: 18px 0;
+      margin-left: 85px;
+      width: 10px;
+    }
+
+    #intro .intro-info {
+      width: 100%;
+
+ 
+    }
+
+
+  
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+
+    #intro .intro-info .wrapper .static-txt{
+      color: #fff;
+      font-size: 35px;
+      font-weight: 500;
+      overflow: hidden;
+      list-style: none;
+      margin-left: 0px;
+      margin-top: 250px;
+    }
+    #intro .intro-info .wrapper .dynamic-txts{
+      margin-left: 20px;
+      height: 60px;
+      line-height: 10px;
+      overflow: hidden;
+      width: 300px;
+    }
+    #intro .intro-info .dynamic-txts li{
+      list-style: none;
+      text-transform: uppercase;
+      color: yellow;
+      font-size: 40px;
+      font-weight: 500;
+      position: relative;
+      top: 0;
+      animation: slide 15s infinite;
+     }
+
+
+    #why-us .section-header .readmoreq {
+      color: whitesmoke;
+      border-style: groove;
+      font-weight: 400;
+      transition: 0.9s ease-in-out; 
+      width: 270px;
+      margin-left: 50px;
+      font-size: 27px;
+    }
+
+    #clients .logos {
+      width: 360px;
+      height: 150px;
+      overflow: hidden;
+      padding: 60px 0;
+      background: white;
+      white-space: nowrap;
+      position: relative;
+      margin-left: 0px;
+      border-radius: 30px 30px 30px 30px;
+      box-shadow: 5px 10px 16px 10px black;
+    }
+    
+  
+    #team .member img {
+     width: 40%;
+     margin-left: -55px;
+    
+    }
+  
+  
+    #team .member {
+      margin-top: 20px;
+      position: relative; 
+       /* overflow: hidden; */
+  
+    }
+  
+    #team .member p {
+  
+      margin-right: 70px;
+  
+    }
+
+
+    #team .member .member-info-content .social i {
+      /* margin-top: 50px;
+      transition: margin 0.2s; */
+    
+      width: 100px;
+      margin-top: 20px;
+      margin-left: -70px;
+    }
+    
+    #team .member:hover .member-info {
+      opacity: 1;
+    }
+    
+    #team .member:hover .member-info-content {
+      margin-top: 0;
+      transition: margin 0.4s;
+    }
+    
+    #team .member h4 {
+      font-weight: 700;
+      margin-bottom: 2px;
+      font-size: 18px;
+      color: #fff;
+    }
+  
+    .section-header p {
+      width: 100%;
+    }
+
+    table {
+      width: 50%;
+      margin-left: 10px;
+      border-collapse: collapse;
+    }
+    th, td {
+      text-align: center;
+      margin-left: -80px;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+
+  }
 
 
 
@@ -2777,5 +2917,5 @@ transition: 0.8s;
   .back-to-top {
     bottom: 15px;
   }
-} */
+}  */
 
