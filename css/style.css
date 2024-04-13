@@ -136,7 +136,7 @@ h6 {
   /* padding: 10px 0; */
   /* background:url("/img/CITY/18504942_SL-062121-43870-05.jpg") right;
   background-position: calc(90% - 10px) 55%; */
-  background:#0067d5 ;
+  background:#004a99;
   /* box-shadow: 10px 10px 10px 1px black; */
   box-shadow: 0px 5px 6px 1px black;
   
@@ -810,10 +810,7 @@ h2 span.typing-animation {
   margin-left: -40px;
 }
 
-#team .member .about-container {
 
-  margin-left: 200px;
-}
 
 
 #team .member .about-container img {
@@ -996,7 +993,7 @@ th {
 }
 
 #clients .logos {
-  width: 1200px;
+  width: 1400px;
   overflow: hidden;
   padding: 60px 0;
   background: white;
@@ -1521,11 +1518,12 @@ transition: 0.8s;
   #header .logo {
     padding: 18px 0;
     margin-left: 50px;
+    margin-top: -10px;
   }
 
   .main-nav ul{
     float: right;
-    margin-right: -50px;
+    margin-right: -20px;
     margin-top: 30px;
   }
   .main-nav ul li{
@@ -1538,9 +1536,31 @@ transition: 0.8s;
     color: whitesmoke;
     font-family: "Montserrat", sans-serif; 
     border-radius: 33px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 550;
     
+  }
+
+  .main-nav button {
+    width: 90px;
+    height: 35px;
+    color: whitesmoke;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    background-color: #0067d5;
+    border-radius: 10px 10px 10px 10px;
+    border-color: whitesmoke;
+    box-shadow: 4px 2px 2px 1px darkblue;
+    
+  }
+  
+  
+  .main-nav button:hover {
+    color: black;
+    font-size: 12px;
+    background-color: red;
+    box-shadow: 4px 2px 4px 1px blue;
   }
 
   #intro {
@@ -1598,11 +1618,11 @@ transition: 0.8s;
   font-weight: 500;
   overflow: hidden;
   list-style: none;
-  margin-left: -790px;
+  margin-left: -880px;
   margin-top: 350px;
 }
 #intro .intro-info .wrapper .dynamic-txts{
-  margin-left: -195px;
+  margin-left: -265px;
   height: 90px;
   line-height: 10px;
   overflow: hidden;
@@ -1637,7 +1657,7 @@ transition: 0.8s;
 }
 
  #team .member p {
-  margin-left: -10px;
+  margin-left: -30px;
 } 
 
 }
@@ -1646,7 +1666,7 @@ transition: 0.8s;
 
   #header .logo {
     padding: 18px 0;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   #intro .intro-info {
@@ -1657,6 +1677,75 @@ transition: 0.8s;
     font-size: 34px;
     margin-bottom: 30px;
   }
+
+  .main-nav ul{
+    float: right;
+    margin-right: -60px;
+    margin-top: 30px;
+  }
+  .main-nav ul li{
+    display: inline-block;
+    /* line-height: 80px; */
+    margin: 0 10px;
+    font-weight: 600px;
+  }
+  .main-nav ul li a{
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif; 
+    border-radius: 33px;
+    font-size: 12px;
+    font-weight: 600;
+    
+  }
+
+  .main-nav button {
+    width: 80px;
+    height: 30px;
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    background-color: #0067d5;
+    border-radius: 10px 10px 10px 10px;
+    border-color: whitesmoke;
+    box-shadow: 4px 2px 2px 1px darkblue;
+    
+  }
+  
+  
+  .main-nav button:hover {
+    color: black;
+    font-size: 12px;
+    background-color: red;
+    box-shadow: 4px 2px 4px 1px blue;
+  }
+
+  #intro .intro-info .wrapper .static-txt{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    overflow: hidden;
+    list-style: none;
+    margin-left: -749px;
+    margin-top: 350px;
+  }
+  #intro .intro-info .wrapper .dynamic-txts{
+    margin-left: -175px;
+    height: 90px;
+    line-height: 10px;
+    overflow: hidden;
+    width: 500px;
+  }
+  #intro .intro-info .dynamic-txts li{
+    list-style: none;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 15s infinite;
+   }
 
   #clients .logos {
     width: 570px;
@@ -1739,7 +1828,12 @@ transition: 0.8s;
 
 
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1043px) {
+
+    #header .logo {
+      padding: 18px 0;
+      margin-left: 45px;
+    }
 
     .main-nav ul{
       float: right;
@@ -1801,14 +1895,24 @@ transition: 0.8s;
       margin-bottom: 30px;
     }
 
+    #why-us .section-header .readmoreq {
+      color: whitesmoke;
+      border-style: groove;
+      font-weight: 500;
+      transition: 0.9s ease-in-out; 
+      width: 380px;
+      margin-left: 260px;
+    
+    }
+
     #clients .logos {
-      width: 980px;
+      width: 900px;
       overflow: hidden;
       padding: 60px 0;
       background: white;
       white-space: nowrap;
       position: relative;
-      margin-left: -25px;
+      margin-left: -10px;
       border-radius: 30px 30px 30px 30px;
       box-shadow: 5px 10px 16px 10px black;
     }
@@ -1863,8 +1967,23 @@ transition: 0.8s;
     .section-header p {
       width: 100%;
     }
+
+    table {
+      width: 60%;
+      margin-left: 150px;
+      border-collapse: collapse;
+    }
+    th, td {
+      text-align: center;
+      margin-left: -120px;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
   
   }
+
 
 
   @media (max-width: 990px) {
@@ -1883,108 +2002,44 @@ transition: 0.8s;
       margin-bottom: 30px;
     }
 
-    #clients .logos {
-      width: 500px;
-      overflow: hidden;
-      padding: 60px 0;
-      background: white;
-      white-space: nowrap;
-      position: relative;
-      margin-left: -55px;
-      border-radius: 30px 30px 30px 30px;
-      box-shadow: 5px 10px 16px 10px black;
-    }
-
-    #why-us .section-header .readmoreq {
-      color: whitesmoke;
-      border-style: groove;
-      font-weight: 400;
-      transition: 0.9s ease-in-out; 
-      width: 400px;
-      margin-left: 60px;
-      font-size: 27px;
-    }
-    
-  
-    #team .member img {
-     width: 40%;
-     margin-left: -55px;
-    
-    }
-  
-  
-    #team .member {
-      margin-top: 20px;
-      position: relative; 
-       overflow: hidden;
-  
-    }
-  
-    #team .member p {
-  
-      margin-right: 70px;
-
-    }
-
-
-    #team .member .member-info-content .social i {
-    
-      width: 100px;
-      margin-top: 20px;
-      margin-left: -70px;
-    }
-    
-    #team .member:hover .member-info {
-      opacity: 1;
-    }
-    
-    #team .member:hover .member-info-content {
-      margin-top: 0;
-      transition: margin 0.4s;
-    }
-    
-    #team .member h4 {
-      font-weight: 700;
-      margin-bottom: 2px;
-      font-size: 18px;
+    #intro .intro-info .wrapper .static-txt{
       color: #fff;
+      font-size: 32px;
+      font-weight: 500;
+      overflow: hidden;
+      list-style: none;
+      margin-left: -590px;
+      margin-top: 350px;
     }
-  
-    .section-header p {
-      width: 100%;
+    #intro .intro-info .wrapper .dynamic-txts{
+      margin-left: -218px;
+      height: 90px;
+      line-height: 10px;
+      overflow: hidden;
+      width: 500px;
     }
-  
-  }
-
-
-
-
-  @media (max-width: 990px) {
-
-    #header .logo {
-      padding: 18px 0;
-      margin-left: -50px;
-    }
-
-    #intro .intro-info {
-      width: 100%;
-    }
-  
-    #intro .intro-info h2 {
-      font-size: 34px;
-      margin-bottom: 30px;
-    }
+    #intro .intro-info .dynamic-txts li{
+      list-style: none;
+      text-transform: uppercase;
+      color: yellow;
+      font-size: 33px;
+      font-weight: 500;
+      position: relative;
+      top: 0;
+      animation: slide 15s infinite;
+     }
 
     
 
     #clients .logos {
-      width: 500px;
+      width: 880px;
+      height: 160px;
       overflow: hidden;
       padding: 60px 0;
       background: white;
       white-space: nowrap;
       position: relative;
-      margin-left: -55px;
+      margin-left: -95px;
       border-radius: 30px 30px 30px 30px;
       box-shadow: 5px 10px 16px 10px black;
     }
@@ -1995,14 +2050,14 @@ transition: 0.8s;
       font-weight: 400;
       transition: 0.9s ease-in-out; 
       width: 400px;
-      margin-left: 60px;
+      margin-left: 130px;
       font-size: 27px;
     }
     
   
     #team .member img {
-     width: 40%;
-     margin-left: -55px;
+     width: 50%;
+     margin-left: -35px;
     
     }
   
@@ -2043,9 +2098,16 @@ transition: 0.8s;
       color: #fff;
     }
 
+    #team .member p {
+  
+      margin-right: 50px;
+  
+    }
+
+    
     table {
-      width: 50%;
-      margin-left: 130px;
+      width: 70%;
+      margin-left: 70px;
       border-collapse: collapse;
     }
     th, td {
