@@ -2226,6 +2226,34 @@ transition: 0.8s;
       margin-bottom: 30px;
     }
 
+
+    #intro .intro-info .wrapper .static-txt{
+      color: #fff;
+      font-size: 32px;
+      font-weight: 500;
+      overflow: hidden;
+      list-style: none;
+      margin-left: -490px;
+      margin-top: 350px;
+    }
+    #intro .intro-info .wrapper .dynamic-txts{
+      margin-left: -168px;
+      height: 90px;
+      line-height: 10px;
+      overflow: hidden;
+      width: 500px;
+    }
+    #intro .intro-info .dynamic-txts li{
+      list-style: none;
+      text-transform: uppercase;
+      color: yellow;
+      font-size: 33px;
+      font-weight: 500;
+      position: relative;
+      top: 0;
+      animation: slide 15s infinite;
+     }
+
     #clients .logos {
       width: 750px;
       overflow: hidden;
@@ -2296,19 +2324,10 @@ transition: 0.8s;
   @media (max-width: 767px) {
 
     #header .container img {
-      width: 120px;
-      margin-top: 0px;
-    }
-
-
-    
-    .mobile-nav-toggle i {
-      margin: 18px 18px 0 0;
-      color: #004289;
+      width: 140px;
+      margin-top: 10px;
     }
     
-    
-
     #header .logo {
       padding: 18px 0;
       margin-left: -10px;
@@ -2326,25 +2345,26 @@ transition: 0.8s;
     
   #intro .intro-info .wrapper .static-txt{
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
     overflow: hidden;
     list-style: none;
-    margin-left: -170px;
-    margin-top: 350px;
+    margin-left: -60px;
+    margin-top: 340px;
   }
   #intro .intro-info .wrapper .dynamic-txts{
-    margin-left: -60px;
+    margin-left: -40px;
     height: 90px;
     line-height: 10px;
     overflow: hidden;
     width: 500px;
+    margin-top: -10px;
   }
   #intro .intro-info .dynamic-txts li{
     list-style: none;
     text-transform: uppercase;
     color: yellow;
-    font-size: 40px;
+    font-size: 33px;
     font-weight: 500;
     position: relative;
     top: 0;
@@ -2442,7 +2462,7 @@ transition: 0.8s;
   
   }
 
-  @media (max-width: 615px) {
+  @media (max-width: 680px) {
 
     #header .logo {
       padding: 18px 0;
@@ -2457,6 +2477,8 @@ transition: 0.8s;
       font-size: 34px;
       margin-bottom: 30px;
     }
+
+
 
     #clients .logos {
       width: 570px;
