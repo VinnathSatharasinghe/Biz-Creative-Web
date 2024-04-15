@@ -1218,7 +1218,7 @@ transition: 0.8s;
 
 }
 #contact .infog {
-  margin-left: 140px;
+  margin-left: 80px;
 
 }
 
@@ -1357,15 +1357,18 @@ transition: 0.8s;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
+
 }
 
 #footer .footer-top {
   background: #004a99;
-  padding: 60px 0 30px 0;
+  padding: 60px 0px 30px 0;
+  /* margin-left: -50px; */
 }
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1379,6 +1382,7 @@ transition: 0.8s;
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
+  
 }
 
 #footer .footer-top .footer-info p {
@@ -1684,12 +1688,11 @@ transition: 0.8s;
 
 #contact .map iframe {
   margin-top: 40px;
-  margin-left: 310px;
+  margin-left: 290px;
 
 }
 #contact .infog {
   margin-left: 100px;
-
 }
 
 #contact .info i {
@@ -1788,13 +1791,14 @@ transition: 0.8s;
    }
 
   #clients .logos {
-    width: 570px;
+    width: 1000px;
+    height: 160px;
     overflow: hidden;
     padding: 60px 0;
     background: white;
     white-space: nowrap;
     position: relative;
-    margin-left: -30px;
+    margin-left: -40px;
     border-radius: 30px 30px 30px 30px;
     box-shadow: 5px 10px 16px 10px black;
   }
@@ -1802,7 +1806,7 @@ transition: 0.8s;
 
   #team .member img {
    width: 40%;
-   margin-left: -55px;
+   margin-left: -30px;
   
   }
 
@@ -1816,7 +1820,7 @@ transition: 0.8s;
 
   #team .member p {
 
-    margin-right: 70px;
+    margin-right: 40px;
 
   }
 
@@ -1852,7 +1856,7 @@ transition: 0.8s;
 
   table {
     width: 70%;
-    margin-left: 30px;
+    margin-left: 120px;
     border-collapse: collapse;
   }
   th, td {
@@ -1953,12 +1957,13 @@ transition: 0.8s;
 
     #clients .logos {
       width: 900px;
+      height: 160px;
       overflow: hidden;
       padding: 60px 0;
       background: white;
       white-space: nowrap;
       position: relative;
-      margin-left: -10px;
+      margin-left: 20px;
       border-radius: 30px 30px 30px 30px;
       box-shadow: 5px 10px 16px 10px black;
     }
@@ -2195,6 +2200,35 @@ transition: 0.8s;
     .section-header p {
       width: 100%;
     }
+
+
+    
+    #contact .map iframe {
+      margin-top: 20px;
+      margin-left: 0px;
+    
+    }
+    #contact .infog {
+      margin-left: 20px;
+    
+    }
+    
+    #contact .info i {
+      font-size: 32px;
+      color: #007bff;
+      float: left;
+      line-height: 1;
+      margin-left: -14px;
+    }
+
+    #contact .info p {
+      padding: 0 0 30px 26px;
+      margin-left: 15px;
+      line-height: 20px;
+      font-size: 15px;
+    }
+
+    
   
   }
 
@@ -2496,8 +2530,8 @@ transition: 0.8s;
     
   
     #team .member img {
-     width: 40%;
-     margin-left: -55px;
+     width: 60%;
+     margin-left: -25px;
     
     }
   
@@ -2511,7 +2545,7 @@ transition: 0.8s;
   
     #team .member p {
   
-      margin-right: 70px;
+      margin-right: 20px;
   
     }
 
@@ -2594,8 +2628,8 @@ transition: 0.8s;
     
   
     #team .member img {
-     width: 40%;
-     margin-left: -55px;
+     width: 60%;
+     margin-left: -45px;
     
     }
   
@@ -2609,7 +2643,7 @@ transition: 0.8s;
   
     #team .member p {
   
-      margin-right: 70px;
+      margin-right: 50px;
   
     }
 
@@ -2689,7 +2723,7 @@ transition: 0.8s;
     
   
     #team .member img {
-     width: 40%;
+     width: 50%;
      margin-left: -55px;
     
     }
@@ -2704,7 +2738,7 @@ transition: 0.8s;
   
     #team .member p {
   
-      margin-right: 70px;
+      margin-right: 50px;
   
     }
 
@@ -2782,12 +2816,7 @@ transition: 0.8s;
       box-shadow: 5px 10px 16px 10px black;
     }
     
-  
-    #team .member img {
-     width: 40%;
-     margin-left: -55px;
-    
-    }
+
   
   
     #team .member {
@@ -2888,12 +2917,6 @@ transition: 0.8s;
     }
     
   
-    #team .member img {
-     width: 40%;
-     margin-left: -55px;
-    
-    }
-  
   
     #team .member {
       margin-top: 20px;
@@ -2904,7 +2927,7 @@ transition: 0.8s;
   
     #team .member p {
   
-      margin-right: 70px;
+      margin-right: 50px;
   
     }
 
@@ -2963,13 +2986,9 @@ transition: 0.8s;
     }
 
     #intro .intro-info {
-      width: 100%;
-
- 
+      width: 100%; 
     }
 
-
-  
     #intro .intro-info h2 {
       font-size: 34px;
       margin-bottom: 30px;
@@ -3028,8 +3047,8 @@ transition: 0.8s;
     
   
     #team .member img {
-     width: 40%;
-     margin-left: -55px;
+     width: 60%;
+     margin-left: -45px;
     
     }
   
@@ -3043,7 +3062,7 @@ transition: 0.8s;
   
     #team .member p {
   
-      margin-right: 70px;
+      margin-right: 50px;
   
     }
 
@@ -3083,12 +3102,7 @@ transition: 0.8s;
       border-collapse: collapse;
     }
     th, td {
-      text-align: center;
-      margin-left: -80px;
-      border-bottom: 1px solid #ddd;
-    }
-    th {
-      background-color: #f2f2f2;
+      border-bottom: 2px solid #ddd;
     }
 
   }
